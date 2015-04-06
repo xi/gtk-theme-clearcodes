@@ -1,11 +1,11 @@
 .pane-separator.horizontal {
-    background-image: url("assets/pane-handle.svg");
+    background-image: url("../assets/pane-handle.svg");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .pane-separator.vertical {
-    background-image: url("assets/pane-handle-vertical.svg");
+    background-image: url("../assets/pane-handle-vertical.svg");
     background-repeat: no-repeat;
     background-position: center center;
 }
