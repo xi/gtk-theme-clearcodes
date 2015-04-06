@@ -1,0 +1,17 @@
+GtkSwitch {
+    border-width: 1px;
+    font-weight: bold;
+}
+
+GtkSwitch:active {
+    background: @selected_bg_color;
+    color: @selected_fg_color;
+}
+
+GtkSwitch.slider {
+    background: @bg_color;
+}
+
+GtkSwitch.slider:insensitive {
+    background: @secondary_color;
+}

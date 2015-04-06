@@ -1,0 +1,35 @@
+.notebook.frame,
+.notebook tab:active {
+    background: @input_bg_color;
+}
+
+.notebook tab,
+.notebook.header {
+    background: @bg_color;
+}
+
+.notebook tab {
+    padding: 2px 5px;
+    border-width: 1px;
+}
+.notebook tab GtkLabel {
+    color: @secondary_color;
+}
+.notebook .active-page {
+    color: @fg_color;
+}
+
+.notebook tab.top:active {
+    padding-top: 5px;
+    border-top: 2px solid @selected_bg_color;
+}
+.notebook tab.bottom:active {
+    padding-bottom: 5px;
+    border-bottom: 2px solid @selected_bg_color;
+}
+.notebook tab.left:active {
+    border-left: 2px solid @selected_bg_color;
+}
+.notebook tab.right:active {
+    border-right: 2px solid @selected_bg_color;
+}

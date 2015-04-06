@@ -1,0 +1,8 @@
+GtkProgressBar {
+	border-width: 1px;
+	background: @input_bg_color;
+}
+
+GtkProgressBar.progressbar {
+	background: @selected_bg_color;
+}

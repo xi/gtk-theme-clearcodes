@@ -1,0 +1,22 @@
+* {
+    -GtkScrolledWindow-scrollbar-spacing: 0;
+}
+
+.scrollbar {
+    -GtkScrollbar-has-backward-stepper: false;
+    -GtkScrollbar-has-forward-stepper: false;
+    -GtkRange-slider-width: 7px;
+    -GtkRange-trough-border: 0;
+}
+
+.scrollbar.slider {
+    background-color: @border_color;
+}
+
+.scrollbar.slider:hover {
+    background-color: darker(@border_color);
+}
+
+.scrollbar.slider:active {
+    background-color: @selected_bg_color;
+}

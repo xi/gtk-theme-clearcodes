@@ -1,0 +1,65 @@
+/* default color scheme */
+@define-color bg_color #eee;
+@define-color fg_color #333;
+@define-color base_color #d7d7d7;
+@define-color text_color #111;
+@define-color selected_bg_color #36a;
+@define-color selected_fg_color #fff;
+@define-color tooltip_fg_color #000;
+@define-color tooltip_bg_color #fff;
+
+@define-color border_color mix(@fg_color, @bg_color, 0.7);
+@define-color input_bg_color #fff;
+@define-color input_fg_color @text_color;
+@define-color secondary_color shade(@fg_color, 2.5);
+
+* {
+    border-color: @border_color;
+    border-style: solid;
+}
+
+*:selected {
+    background-color: @selected_bg_color;
+    color: @selected_fg_color;
+}
+*:insensitive {
+    color: @secondary_color;
+}
+
+.background {
+    background: @base_color;
+    color: @fg_color;
+}
+
+GtkStatusbar {
+    padding: 4px;
+    color: @theme_fg_color;
+}
+
+.cell {
+    background: @input_bg_color;
+    color: @input_fg_color;
+}
+
+.entry {
+    padding: 3px;
+    border-width: 1px;
+    background-color: @input_bg_color;
+    color: @input_fg_color;
+}
+.entry:focus {
+    border-color: @selected_bg_color;
+}
+
+@import url("widgets/button.css");
+@import url("widgets/checkbox.css");
+@import url("widgets/frame.css");
+@import url("widgets/menu.css");
+@import url("widgets/notebook.css");
+@import url("widgets/pane-separator.css");
+@import url("widgets/progress_bar.css");
+@import url("widgets/scale.css");
+@import url("widgets/scrollbar.css");
+@import url("widgets/spinner.css");
+@import url("widgets/switch.css");
+@import url("widgets/tooltip.css");
