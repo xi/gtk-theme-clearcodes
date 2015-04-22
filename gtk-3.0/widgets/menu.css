@@ -26,6 +26,7 @@
     background: transparent;
 }
 .toolbar .button:hover,
+.toolbar .button:focus,
 .toolbar .button:active {
     border-color: @border_color;
 }

@@ -12,20 +12,21 @@
 @define-color input_bg_color #fff;
 @define-color input_fg_color @text_color;
 @define-color secondary_color shade(@fg_color, 2.5);
+@define-color focus_color @selected_bg_color;
 
 * {
     border-color: @border_color;
     border-style: solid;
 }
 
-*:selected {
+*:selected,
+*:selected:focus {
     background-color: @selected_bg_color;
     color: @selected_fg_color;
 }
 *:insensitive {
     color: @secondary_color;
 }
-
 .background {
     background: @base_color;
     color: @fg_color;
@@ -47,8 +48,15 @@ GtkStatusbar {
     background-color: @input_bg_color;
     color: @input_fg_color;
 }
-.entry:focus {
-    border-color: @selected_bg_color;
+
+.scale:focus.slider,
+GtkSwitch:focus.slider,
+.notebook:focus tab:active,
+.radio:focus,
+.check:focus,
+.entry:focus,
+.button:focus {
+    border-color: @focus_color;
 }
 
 @import url("widgets/button.css");

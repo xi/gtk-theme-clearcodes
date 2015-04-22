@@ -9,7 +9,8 @@
     color: @input_fg_color;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     background-image: linear-gradient(to bottom,
         @input_bg_color,
         @input_bg_color 40%,
