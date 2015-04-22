@@ -29,6 +29,12 @@
 .toolbar .button:active {
     border-color: @border_color;
 }
+.toolbar .button:active {
+    background-image: linear-gradient(to bottom,
+        @base_color,
+        shade(@base_color, 0.9) 40%,
+        shade(@base_color, 0.9));
+}
 
 GtkSeparatorToolItem,
 .separator {
