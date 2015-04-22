@@ -1,6 +1,7 @@
 GtkSwitch {
     border-width: 1px;
     font-weight: bold;
+    border-radius: 4px;
 }
 
 GtkSwitch:active {
@@ -9,7 +10,18 @@ GtkSwitch:active {
 }
 
 GtkSwitch.slider {
-    background: @bg_color;
+    /* same as in button */
+    background-image: linear-gradient(to bottom,
+        @input_bg_color,
+        @input_bg_color 40%,
+        shade(@input_bg_color, 0.92));
+}
+GtkSwitch.slider:hover,
+GtkSwitch.slider:focus {
+    background-image: linear-gradient(to bottom,
+        @input_bg_color,
+        @input_bg_color 40%,
+        shade(@input_bg_color, 0.96));
 }
 
 GtkSwitch.slider:insensitive {
