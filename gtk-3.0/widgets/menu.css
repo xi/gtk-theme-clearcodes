@@ -3,6 +3,9 @@
     background: @bg_color;
     color: @fg_color;
 }
+.toolbar {
+    padding: 1px;
+}
 
 .menu {
     background: @input_bg_color;
