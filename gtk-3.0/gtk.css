@@ -19,6 +19,10 @@
     border-style: solid;
 }
 
+*:hover, *:focus {
+    -gtk-image-effect: highlight;
+}
+
 *:selected,
 *:selected:focus {
     background-color: @selected_bg_color;
@@ -27,6 +31,7 @@
 /* !important seems to be broken, so I use this hack to push specificity */
 *:insensitive:insensitive {
     color: @secondary_color;
+    -gtk-image-effect: dim;
 }
 .background {
     background: @base_color;
