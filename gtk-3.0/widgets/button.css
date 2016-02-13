@@ -53,3 +53,11 @@ column-header:last-child .button {
     border-radius: 0;
     border-width: 0 0 0 1px;
 }
+
+GtkComboBox .button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+GtkComboBox:active .button {
+    background: blue;
+}
