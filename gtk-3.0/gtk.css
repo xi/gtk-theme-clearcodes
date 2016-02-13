@@ -24,7 +24,8 @@
     background-color: @selected_bg_color;
     color: @selected_fg_color;
 }
-*:insensitive {
+/* !important seems to be broken, so I use this hack to push specificity */
+*:insensitive:insensitive:insensitive:insensitive {
     color: @secondary_color;
 }
 .background {
