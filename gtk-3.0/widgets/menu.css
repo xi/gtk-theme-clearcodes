@@ -32,6 +32,7 @@
 .toolbar .button:focus,
 .toolbar .button:active {
     border-color: @border_color;
+    background: shade(@bg_color, 1.2);
 }
 .toolbar .button:active {
     background-image: linear-gradient(to bottom,
