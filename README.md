@@ -12,3 +12,5 @@ I tried to make the code as clear as possible. So maybe it can serve as a
 reference for people who want to build there own themes.
 
 And IMHO it also looks ok, btw.
+
+![screenshot of awf](https://raw.githubusercontent.com/xi/gtk-theme-clearcodes/master/screenshots/awf.png)
