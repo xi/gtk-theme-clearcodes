@@ -9,7 +9,7 @@ hard to know which selectors can be used to style an element. So there may well
 be some selectors I missed.
 
 I tried to make the code as clear as possible. So maybe it can serve as a
-reference for people who want to build there own themes.
+reference for people who want to build their own themes.
 
 And IMHO it also looks ok, btw.
 
