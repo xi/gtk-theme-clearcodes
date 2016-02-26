@@ -23,7 +23,7 @@
     -gtk-image-effect: highlight;
 }
 
-*:selected,
+*:selected:selected,
 *:selected:focus {
     background-color: @selected_bg_color;
     color: @selected_fg_color;
