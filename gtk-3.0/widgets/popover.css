@@ -1,14 +1,14 @@
 .popover {
     background: @input_bg_color;
     color: @input_fg_color;
-    border-radius: 4px;
+    border-radius: 2px;
     border-width: 1px;
 }
 .popover .button {
     background: none;
     color: inherit;
     border: 0;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 .popover .button:hover {
     background: @selected_bg_color;

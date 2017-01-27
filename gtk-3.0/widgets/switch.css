@@ -1,7 +1,7 @@
 GtkSwitch {
     border-width: 1px;
     font-weight: bold;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 GtkSwitch:active {
