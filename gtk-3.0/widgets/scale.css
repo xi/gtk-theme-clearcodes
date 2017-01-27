@@ -1,19 +1,19 @@
 .scale {
-	-GtkRange-slider-width: 14px;
-	-GtkScale-slider-length: 14px;
-	border-width: 1px;
-	background: @input_bg_color;
+    -GtkRange-slider-width: 14px;
+    -GtkScale-slider-length: 14px;
+    border-width: 1px;
+    background: @input_bg_color;
 }
 
 .scale.bottom,
 .scale.left {
-	background: @selected_bg_color;
+    background: @selected_bg_color;
 }
 
 .scale.slider {
-	border-radius: 50%;
+    border-radius: 50%;
 }
 
 .scale.trough {
-	margin: 5px;
+    margin: 5px;
 }

@@ -1,9 +1,9 @@
 .radio,
 .check {
-	border-width: 1px;
-	background: @input_bg_color;
+    border-width: 1px;
+    background: @input_bg_color;
 }
 
 .radio {
-	border-radius: 50%;
+    border-radius: 50%;
 }
