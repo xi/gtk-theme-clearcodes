@@ -9,7 +9,7 @@
 }
 
 .notebook tab {
-    padding: 2px 5px;
+    padding: 3px 5px;
     border-width: 1px;
 }
 .notebook tab GtkLabel {
