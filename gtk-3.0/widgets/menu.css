@@ -36,8 +36,7 @@
 }
 .toolbar .button:active {
     background-image: linear-gradient(to bottom,
-        @base_color,
-        shade(@base_color, 0.9) 40%,
+        shade(@base_color, 0.95),
         shade(@base_color, 0.9));
 }
 

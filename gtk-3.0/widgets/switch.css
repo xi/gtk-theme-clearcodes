@@ -14,14 +14,14 @@ GtkSwitch.slider {
     background-image: linear-gradient(to bottom,
         @input_bg_color,
         @input_bg_color 40%,
-        shade(@input_bg_color, 0.92));
+        shade(@input_bg_color, 0.94));
 }
 GtkSwitch.slider:hover,
 GtkSwitch.slider:focus {
     background-image: linear-gradient(to bottom,
         @input_bg_color,
         @input_bg_color 40%,
-        shade(@input_bg_color, 0.96));
+        shade(@input_bg_color, 0.98));
 }
 
 GtkSwitch.slider:insensitive {

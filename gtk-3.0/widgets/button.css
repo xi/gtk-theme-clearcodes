@@ -5,7 +5,7 @@
     background-image: linear-gradient(to bottom,
         @input_bg_color,
         @input_bg_color 40%,
-        shade(@input_bg_color, 0.92));
+        shade(@input_bg_color, 0.94));
     color: @input_fg_color;
 }
 
@@ -14,13 +14,12 @@
     background-image: linear-gradient(to bottom,
         @input_bg_color,
         @input_bg_color 40%,
-        shade(@input_bg_color, 0.96));
+        shade(@input_bg_color, 0.98));
 }
 .button:active {
     border-color: @selected_bg_color;
     background-image: linear-gradient(to bottom,
-        @base_color,
-        shade(@base_color, 0.9) 40%,
+        shade(@base_color, 0.95),
         shade(@base_color, 0.9));
 }
 
