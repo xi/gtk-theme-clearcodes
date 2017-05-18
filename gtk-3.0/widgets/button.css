@@ -58,5 +58,5 @@ GtkComboBox .button {
     border-bottom-left-radius: 0;
 }
 GtkComboBox:active .button {
-    background: blue;
+    background: @selected_bg_color;
 }
