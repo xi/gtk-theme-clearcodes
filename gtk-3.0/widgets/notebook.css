@@ -13,7 +13,7 @@
     border-width: 1px;
 }
 .notebook tab GtkLabel {
-    color: @secondary_color;
+    color: @secondary_fg_color;
 }
 .notebook .active-page {
     color: @fg_color;

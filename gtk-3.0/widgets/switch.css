@@ -25,5 +25,5 @@ GtkSwitch.slider:focus {
 }
 
 GtkSwitch.slider:insensitive {
-    background: @secondary_color;
+    background: @secondary_fg_color;
 }
