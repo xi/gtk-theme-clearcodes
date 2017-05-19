@@ -1,18 +1,23 @@
 scale {
-    -GtkRange-slider-width: 14px;
-    -GtkScale-slider-length: 14px;
+    padding: 8px;
+}
+
+scale contents {
     border-width: 1px;
     background: @input_bg_color;
 }
 
 scale highlight {
     background: @selected_bg_color;
+    min-width: 6px;
+    min-height: 6px;
 }
 
 scale slider {
     border-radius: 50%;
-}
-
-scale through {
-    margin: 5px;
+    min-width: 14px;
+    min-height: 14px;
+    border: 1px solid @border_color;
+    background: @input_bg_color;
+    margin: -7px;
 }
