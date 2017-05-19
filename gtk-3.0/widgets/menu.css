@@ -19,6 +19,7 @@
 
 .menu .menuitem {
     padding: 0.4em;
+    margin: 1px;
 }
 
 .menuitem:hover,
