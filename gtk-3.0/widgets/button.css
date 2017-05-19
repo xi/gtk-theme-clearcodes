@@ -23,14 +23,6 @@ button:active {
         shade(@base_color, 0.9));
 }
 
-treeview header button {
-    border-radius: 0;
-    border-width: 0 1px 0 0;
-}
-treeview header button:last-child {
-    border-width: 0;
-}
-
 .linked button,
 .linked entry {
     border-radius: 0;
