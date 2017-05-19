@@ -26,6 +26,7 @@
     -gtk-image-effect: highlight;
 }
 
+.selection,
 *:selected:selected,
 *:selected:focus {
     background-color: @selected_bg_color;
