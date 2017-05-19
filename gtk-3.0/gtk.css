@@ -44,7 +44,7 @@
 
 GtkStatusbar {
     padding: 4px;
-    color: @theme_fg_color;
+    color: @fg_color;
 }
 
 .cell {
