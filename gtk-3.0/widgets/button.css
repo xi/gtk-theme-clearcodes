@@ -9,6 +9,18 @@ button {
     color: @input_fg_color;
 }
 
+button.flat {
+    background: none;
+    border-color: transparent;
+}
+
+button.flat:hover,
+button.flat:focus,
+button.flat:active,
+button.flat:checked {
+    border-color: @border_color;
+}
+
 button:hover,
 button:focus {
     background-image: linear-gradient(to bottom,
@@ -16,11 +28,23 @@ button:focus {
         @input_bg_color 40%,
         shade(@input_bg_color, 0.98));
 }
-button:active {
-    border-color: @selected_bg_color;
+button:active,
+button:checked {
     background-image: linear-gradient(to bottom,
         shade(@base_color, 0.95),
         shade(@base_color, 0.9));
+}
+
+button.link label {
+    color: @focus_color;
+    text-decoration: underline;
+}
+button.link:hover label,
+button.link:focus label {
+    color: mix(@focus_color, @fg_color, 0.2);
+}
+button.link:active label {
+    color: mix(@focus_color, @fg_color, 0.5);
 }
 
 .linked button,

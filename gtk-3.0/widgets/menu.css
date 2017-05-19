@@ -31,8 +31,6 @@ combobox menuitem:hover * {
 
 toolbar button {
     padding: 0.2em;
-    border-color: transparent;
-    background: transparent;
 }
 
 separator {
