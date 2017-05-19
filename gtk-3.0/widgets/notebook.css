@@ -17,17 +17,38 @@ notebook tab:checked {
     color: @fg_color;
 }
 
+notebook .top tab {
+    margin-top: 2px;
+}
 notebook .top tab:checked {
-    padding-top: 5px;
+    margin-top: 0;
     border-top: 2px solid @selected_bg_color;
+    border-bottom: 0;
+}
+
+notebook .bottom tab {
+    margin-bottom: 2px;
 }
 notebook .bottom tab:checked {
-    padding-bottom: 5px;
+    margin-bottom: 0;
     border-bottom: 2px solid @selected_bg_color;
+    border-top: 0;
+}
+
+notebook .left tab {
+    margin-left: 2px;
 }
 notebook .left tab:checked {
+    margin-left: 0;
     border-left: 2px solid @selected_bg_color;
+    border-right: 0;
+}
+
+notebook .right tab {
+    margin-right: 2px;
 }
 notebook .right tab:checked {
+    margin-right: 0;
     border-right: 2px solid @selected_bg_color;
+    border-left: 0;
 }
