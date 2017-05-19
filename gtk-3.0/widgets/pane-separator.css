@@ -1,7 +1,10 @@
 paned separator {
+    background-color: transparent;
     background-image: url("../assets/pane-handle.svg");
     background-repeat: no-repeat;
     background-position: center center;
+    min-width: 4px;
+    min-height: 4px;
 }
 
 paned.vertical > separator {

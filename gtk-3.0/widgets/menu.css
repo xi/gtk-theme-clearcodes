@@ -35,5 +35,8 @@ toolbar button {
 }
 
 separator {
-    color: @border_color;
+    background-color: @border_color;
+    margin: 0.2em;
+    min-width: 1px;
+    min-height: 1px;
 }
