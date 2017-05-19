@@ -8,8 +8,10 @@ popover.background {
 popover modelbutton {
     background: none;
     color: inherit;
-    border: 0;
-    border-radius: 3px;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 0.3em;
+    padding: 0.3em;
 }
 popover modelbutton:hover {
     background: @selected_bg_color;
