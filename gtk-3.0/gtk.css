@@ -69,6 +69,7 @@ button:focus {
     border-color: @focus_color;
 }
 
+@import url("widgets/arrow.css");
 @import url("widgets/button.css");
 @import url("widgets/checkbox.css");
 @import url("widgets/frame.css");
