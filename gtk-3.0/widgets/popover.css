@@ -1,21 +1,22 @@
-.popover {
+popover.background {
     background: @input_bg_color;
     color: @input_fg_color;
     border-radius: 3px;
     border-width: 1px;
 }
-.popover .button {
+
+popover modelbutton {
     background: none;
     color: inherit;
     border: 0;
     border-radius: 3px;
 }
-.popover .button:hover {
+popover modelbutton:hover {
     background: @selected_bg_color;
     color: @selected_fg_color;
 }
 /* First item is initially focused, so using same style
  * as :hover would be irritating */
-.popover .button:focus {
+popover modelbutton:focus {
     border: 1px dotted @border_color;
 }

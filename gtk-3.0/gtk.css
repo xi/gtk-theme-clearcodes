@@ -23,26 +23,26 @@
 }
 
 *:hover, *:focus {
-    -gtk-image-effect: highlight;
+    -gtk-icon-effect: highlight;
 }
 
-.selection,
+selection,
 *:selected:selected,
 *:selected:focus {
     background-color: @selected_bg_color;
     color: @selected_fg_color;
 }
 /* !important seems to be broken, so I use this hack to push specificity */
-*:insensitive:insensitive {
+*:disabled:disabled {
     color: @secondary_fg_color;
-    -gtk-image-effect: dim;
+    -gtk-icon-effect: dim;
 }
 .background {
     background: @base_color;
     color: @fg_color;
 }
 
-GtkStatusbar {
+statusbar {
     padding: 4px;
     color: @fg_color;
 }
@@ -52,20 +52,20 @@ GtkStatusbar {
     color: @input_fg_color;
 }
 
-.entry {
+entry {
     padding: 3px;
     border-width: 1px;
     background-color: @input_bg_color;
     color: @input_fg_color;
 }
 
-.scale:focus.slider,
-GtkSwitch:focus.slider,
-.notebook:focus tab:active,
-.radio:focus,
-.check:focus,
-.entry:focus,
-.button:focus {
+slider:focus,
+switch:focus slider,
+notebook:focus tab:checked,
+radio:focus,
+check:focus,
+entry:focus,
+button:focus {
     border-color: @focus_color;
 }
 

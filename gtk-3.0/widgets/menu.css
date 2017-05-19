@@ -1,40 +1,39 @@
-.menubar,
-.toolbar {
+menubar,
+toolbar {
     background: @bg_color;
     color: @fg_color;
 }
-.toolbar {
+toolbar {
     padding: 1px;
 }
 
-.menu {
+menu {
     background: @input_bg_color;
     color: @input_fg_color;
     border-width: 1px;
 }
 
-.menuitem {
+menuitem {
     padding: 0.4em 1em;
 }
 
-.menu .menuitem {
+menu menuitem {
     padding: 0.4em;
     margin: 1px;
 }
 
-.menuitem:hover,
-.menuitem:hover > * {
+menuitem:hover,
+menuitem:hover > * {
     background: @selected_bg_color;
     color: @selected_fg_color;
 }
 
-.toolbar .button {
+toolbar button {
     padding: 0.2em;
     border-color: transparent;
     background: transparent;
 }
 
-GtkSeparatorToolItem,
-.separator {
+separator {
     color: @border_color;
 }

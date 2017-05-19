@@ -1,35 +1,33 @@
-.notebook.frame,
-.notebook tab:active {
+notebook.frame,
+notebook tab:checked {
     background: @input_bg_color;
 }
 
-.notebook tab,
-.notebook.header {
+notebook tab,
+notebook header {
     background: @bg_color;
 }
 
-.notebook tab {
+notebook tab {
     padding: 3px 5px;
     border-width: 1px;
-}
-.notebook tab GtkLabel {
     color: @secondary_fg_color;
 }
-.notebook .active-page {
+notebook tab:checked {
     color: @fg_color;
 }
 
-.notebook tab.top:active {
+notebook .top tab:checked {
     padding-top: 5px;
     border-top: 2px solid @selected_bg_color;
 }
-.notebook tab.bottom:active {
+notebook .bottom tab:checked {
     padding-bottom: 5px;
     border-bottom: 2px solid @selected_bg_color;
 }
-.notebook tab.left:active {
+notebook .left tab:checked {
     border-left: 2px solid @selected_bg_color;
 }
-.notebook tab.right:active {
+notebook .right tab:checked {
     border-right: 2px solid @selected_bg_color;
 }

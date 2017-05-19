@@ -2,21 +2,25 @@
     -GtkScrolledWindow-scrollbar-spacing: 0;
 }
 
-.scrollbar {
+scrollbar {
     -GtkScrollbar-has-backward-stepper: false;
     -GtkScrollbar-has-forward-stepper: false;
-    -GtkRange-slider-width: 7px;
-    -GtkRange-trough-border: 0;
 }
 
-.scrollbar.slider {
+scrollbar slider {
     background-color: @border_color;
+    min-width: 7px;
+    min-height: 7px;
 }
 
-.scrollbar.slider:hover {
+scrollbar slider:hover {
     background-color: mix(@border_color, @secondary_fg_color, 0.5);
 }
 
-.scrollbar.slider:active {
+scrollbar slider:active {
     background-color: @selected_bg_color;
+}
+
+scrollbar through {
+    border: 0;
 }

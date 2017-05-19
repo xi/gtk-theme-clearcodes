@@ -1,13 +1,13 @@
-.pane-separator {
+paned separator {
     background-image: url("../assets/pane-handle.svg");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.pane-separator.vertical {
+paned.vertical > separator {
     background-image: url("../assets/pane-handle-vertical.svg");
 }
 
-.pane-separator:hover {
+paned separator:hover {
     background-color: @bg_color;
 }

@@ -1,10 +1,9 @@
-GtkProgressBar {
+progressbar {
     border-width: 1px;
     background: @input_bg_color;
 }
 
 /* FIXME: there is at least a second wrapper type. I don't know what it is */
-.progressbar,
-GtkProgressBar.progressbar {
+progressbar progress {
     background: @selected_bg_color;
 }

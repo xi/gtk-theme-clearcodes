@@ -1,5 +1,5 @@
-.radio,
-.check {
+radio,
+check {
     min-height: 1.2em;
     min-width: 1.2em;
     border-width: 1px;
@@ -7,6 +7,6 @@
     color: @input_fg_color;
 }
 
-.radio {
+radio {
     border-radius: 50%;
 }
