@@ -15,6 +15,9 @@ switch slider {
         @input_bg_color,
         @input_bg_color 40%,
         shade(@input_bg_color, 0.94));
+    border-width: 1px;
+    border-radius: 3px;
+    margin: -1px;
 }
 switch:hover slider,
 switch:focus slider {
