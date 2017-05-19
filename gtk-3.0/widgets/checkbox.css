@@ -1,3 +1,8 @@
+checkbutton,
+radiobutton {
+    padding: 0.2em 0;
+}
+
 radio,
 check {
     min-height: 1.2em;
@@ -5,6 +10,16 @@ check {
     border-width: 1px;
     background-color: @input_bg_color;
     color: @input_fg_color;
+}
+
+radio:not(:last-child),
+check:not(:last-child) {
+    margin-right: 0.4em;
+}
+
+radio:not(:first-child),
+check:not(:first-child) {
+    margin-left: 0.4em;
 }
 
 radio {
