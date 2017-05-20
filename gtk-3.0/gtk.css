@@ -61,6 +61,7 @@ entry {
 
 slider:focus,
 switch:focus slider,
+spinbutton:focus,
 notebook:focus tab:checked,
 radio:focus,
 check:focus,

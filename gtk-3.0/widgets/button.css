@@ -48,9 +48,18 @@ treeview header button:last-child {
     border-right-width: 1px;
 }
 
+spinbutton {
+    border-width: 1px;
+}
+spinbutton entry {
+    border-width: 0;
+}
 spinbutton button {
     border-radius: 0;
     border-width: 0 0 0 1px;
+}
+spinbutton button:focus {
+    border-color: @border_color;
 }
 
 combobox button {
