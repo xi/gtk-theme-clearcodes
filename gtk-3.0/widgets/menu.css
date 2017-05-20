@@ -33,22 +33,6 @@
     border-color: transparent;
     background: transparent;
 }
-.toolbar .button:hover,
-.toolbar .button:focus,
-.toolbar .button:active {
-    border-color: @border_color;
-    background: shade(@bg_color, 1.2);
-}
-.toolbar .button:active {
-    background-image: linear-gradient(to bottom,
-        shade(@base_color, 0.95),
-        shade(@base_color, 0.9));
-}
-.toolbar .button:checked {
-    border-color: @base_color;
-    background-color: shade(@bg_color, 0.55);
-    border-color: shade(@bg_color, 0.5);
-}
 
 GtkSeparatorToolItem,
 .separator {
