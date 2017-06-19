@@ -1,0 +1,15 @@
+list {
+    background: @input_bg_color;
+    color: @input_fg_color;
+}
+
+list row.activatable {
+    padding: 1em;
+}
+list row image {
+    margin-right: 0.5em;
+}
+
+list separator {
+    border-bottom: 1px solid @border_color;
+}

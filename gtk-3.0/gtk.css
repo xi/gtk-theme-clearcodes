@@ -80,6 +80,7 @@ button:focus {
 @import url("widgets/checkbox.css");
 @import url("widgets/frame.css");
 @import url("widgets/headerbar.css");
+@import url("widgets/list.css");
 @import url("widgets/menu.css");
 @import url("widgets/notebook.css");
 @import url("widgets/pane-separator.css");
