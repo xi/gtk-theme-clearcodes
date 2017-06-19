@@ -49,6 +49,8 @@ statusbar border {
     border: 0;
 }
 
+textview,
+paned.view,
 .cell {
     background: @input_bg_color;
     color: @input_fg_color;
