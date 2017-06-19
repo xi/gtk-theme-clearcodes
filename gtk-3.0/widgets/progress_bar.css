@@ -7,3 +7,7 @@ progressbar {
 progressbar progress {
     background: @selected_bg_color;
 }
+
+entry progress {
+    border-bottom: 2px solid @selected_bg_color;
+}
