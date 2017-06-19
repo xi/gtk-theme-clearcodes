@@ -21,3 +21,14 @@ scale slider {
     background: @input_bg_color;
     margin: -7px;
 }
+
+scale slider:disabled {
+    background: shade(@input_bg_color, 0.94);
+}
+
+scale mark {
+    background-color: @border_color;
+    margin-top: 2px;
+    min-height: 5px;
+    min-width: 1px;
+}
