@@ -21,6 +21,10 @@ button.flat:checked {
     border-color: @border_color;
 }
 
+button.circular {
+    border-radius: 100em;
+}
+
 button:hover,
 button:focus {
     background-image: linear-gradient(to bottom,
