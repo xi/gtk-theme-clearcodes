@@ -43,8 +43,10 @@ selection,
 }
 
 statusbar {
-    padding: 4px;
     color: @fg_color;
+}
+statusbar border {
+    border: 0;
 }
 
 .cell {
