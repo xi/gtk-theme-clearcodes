@@ -98,7 +98,15 @@ spinbutton entry {
 }
 spinbutton button {
     border-radius: 0;
+}
+spinbutton.horizontal button {
     border-width: 0 0 0 1px;
+}
+spinbutton.vertical button.up {
+    border-width: 0 0 1px;
+}
+spinbutton.vertical button.down {
+    border-width: 1px 0 0;
 }
 spinbutton button:focus {
     border-color: @border_color;
