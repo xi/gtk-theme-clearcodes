@@ -60,6 +60,9 @@ entry {
     background-color: @input_bg_color;
     color: @input_fg_color;
 }
+entry:disabled {
+    background: shade(@input_bg_color, 0.94);
+}
 
 slider:focus,
 switch:focus slider,
