@@ -1,4 +1,5 @@
-popover.background {
+popover.background,
+toolbar.osd {
     background: @input_bg_color;
     color: @input_fg_color;
     border-radius: 3px;
@@ -21,4 +22,9 @@ popover modelbutton:hover {
  * as :hover would be irritating */
 popover modelbutton:focus {
     border: 1px dotted @border_color;
+}
+
+toolbar.osd {
+    border-radius: 1em;
+    padding: 2em;
 }
