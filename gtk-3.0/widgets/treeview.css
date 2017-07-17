@@ -1,0 +1,32 @@
+treeview.view {
+    background-color: @input_bg_color;
+    color: @input_fg_color;
+}
+
+treeview.view:selected:focus {
+    border: 1px dotted @border_color;
+}
+
+treeview.trough {
+    border-width: 1px;
+    padding: 0;
+}
+
+treeview.progressbar {
+    background-color: @selected_bg_color;
+    color: @selected_fg_color;
+}
+
+treeview.progressbar:selected,
+treeview.progressbar:selected:focus {
+    background-color: @bg_color;
+    color: @selected_bg_color;
+}
+
+treeview header button {
+    border-radius: 0;
+    border-width: 0;
+}
+treeview header button:not(:last-child) {
+    border-right-width: 1px;
+}

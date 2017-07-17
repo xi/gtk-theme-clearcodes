@@ -1,29 +1,32 @@
-GtkSwitch {
+switch {
     border-width: 1px;
     font-weight: bold;
     border-radius: 3px;
 }
 
-GtkSwitch:active {
+switch:checked {
     background: @selected_bg_color;
     color: @selected_fg_color;
 }
 
-GtkSwitch.slider {
+switch slider {
     /* same as in button */
     background-image: linear-gradient(to bottom,
         @input_bg_color,
         @input_bg_color 40%,
         shade(@input_bg_color, 0.94));
+    border-width: 1px;
+    border-radius: 3px;
+    margin: -1px;
 }
-GtkSwitch.slider:hover,
-GtkSwitch.slider:focus {
+switch:hover slider,
+switch:focus slider {
     background-image: linear-gradient(to bottom,
         @input_bg_color,
         @input_bg_color 40%,
         shade(@input_bg_color, 0.98));
 }
 
-GtkSwitch.slider:insensitive {
+switch:disabled slider {
     background: @secondary_fg_color;
 }

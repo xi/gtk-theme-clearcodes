@@ -1,0 +1,22 @@
+arrow {
+    min-height: 14px;
+    min-width: 14px;
+}
+
+arrow.top {
+    -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+}
+
+arrow.bottom,
+combobox arrow {
+    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+}
+
+arrow.left,
+menuitem arrow {
+    -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
+}
+
+arrow.right {
+    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+}
