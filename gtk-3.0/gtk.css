@@ -18,7 +18,6 @@
     border-color: @border_color;
     border-style: solid;
 
-    -GtkExpander-expander-size: 11;
     -GtkTreeView-expander-size: 11;
 }
 
