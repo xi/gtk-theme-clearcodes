@@ -25,3 +25,11 @@ check:not(:first-child) {
 radio {
     border-radius: 50%;
 }
+
+check:checked {
+    -gtk-icon-source: -gtk-recolor(url("../assets/check.svg"));
+}
+
+radio:checked {
+    -gtk-icon-source: -gtk-recolor(url("../assets/radio.svg"));
+}
