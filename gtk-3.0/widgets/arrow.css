@@ -8,7 +8,8 @@ arrow.top {
 }
 
 arrow.bottom,
-combobox arrow {
+combobox arrow,
+expander arrow:checked {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 }
 
@@ -17,6 +18,7 @@ menuitem arrow {
     -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
 }
 
-arrow.right {
+arrow.right,
+expander arrow {
     -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
 }
