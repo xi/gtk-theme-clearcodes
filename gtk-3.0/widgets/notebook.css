@@ -8,6 +8,10 @@ notebook header {
     background: @bg_color;
 }
 
+notebook stack {
+    border: 1px solid @border_color;
+}
+
 notebook tab {
     padding: 3px 5px;
     border-width: 1px;
@@ -19,6 +23,7 @@ notebook tab:checked {
 
 notebook .top tab {
     margin-top: 2px;
+    margin-bottom: -1px;
 }
 notebook .top tab:checked {
     margin-top: 0;
@@ -28,6 +33,7 @@ notebook .top tab:checked {
 
 notebook .bottom tab {
     margin-bottom: 2px;
+    margin-top: -1px;
 }
 notebook .bottom tab:checked {
     margin-bottom: 0;
@@ -37,6 +43,7 @@ notebook .bottom tab:checked {
 
 notebook .left tab {
     margin-left: 2px;
+    margin-right: -1px;
 }
 notebook .left tab:checked {
     margin-left: 0;
@@ -46,6 +53,7 @@ notebook .left tab:checked {
 
 notebook .right tab {
     margin-right: 2px;
+    margin-left: -1px;
 }
 notebook .right tab:checked {
     margin-right: 0;
