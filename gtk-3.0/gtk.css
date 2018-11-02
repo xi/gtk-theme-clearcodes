@@ -5,8 +5,8 @@
 @define-color text_color @fg_color;
 @define-color selected_bg_color #26c;
 @define-color selected_fg_color #fff;
-@define-color tooltip_fg_color @text_color;
 @define-color tooltip_bg_color #fff;
+@define-color tooltip_fg_color @text_color;
 
 @define-color border_color mix(@fg_color, @bg_color, 0.75);
 @define-color input_bg_color #fff;
