@@ -27,9 +27,9 @@ radio {
 }
 
 check:checked {
-    -gtk-icon-source: -gtk-recolor(url("../assets/check.svg"));
+    -gtk-icon-source: -gtk-recolor(url("../assets/check-symbolic.svg"));
 }
 
 radio:checked {
-    -gtk-icon-source: -gtk-recolor(url("../assets/radio.svg"));
+    -gtk-icon-source: -gtk-recolor(url("../assets/radio-symbolic.svg"));
 }
