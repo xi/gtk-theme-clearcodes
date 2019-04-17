@@ -1,0 +1,79 @@
+* {
+    border-color: @border_color;
+    border-style: solid;
+
+    -GtkTreeView-expander-size: 11;
+}
+
+*:hover, *:focus {
+    -gtk-icon-effect: highlight;
+}
+
+selection,
+*:selected:selected,
+*:selected:focus {
+    background-color: @selected_bg_color;
+    color: @selected_fg_color;
+}
+/* !important seems to be broken, so I use this hack to push specificity */
+*:disabled:disabled {
+    color: @secondary_fg_color;
+    -gtk-icon-effect: dim;
+}
+.background {
+    background: @base_color;
+    color: @fg_color;
+}
+
+statusbar {
+    color: @fg_color;
+}
+statusbar border {
+    border: 0;
+}
+
+.view,
+.cell {
+    background: @input_bg_color;
+    color: @input_fg_color;
+}
+
+entry {
+    padding: 3px;
+    border-width: 1px;
+    background-color: @input_bg_color;
+    color: @input_fg_color;
+}
+entry:disabled {
+    background: shade(@input_bg_color, 0.94);
+}
+
+slider:focus,
+switch:focus slider,
+spinbutton:focus,
+notebook:focus tab:checked,
+radio:focus,
+check:focus,
+entry:focus,
+button:focus {
+    border-color: @focus_color;
+}
+
+@import url("widgets/app-notification.css");
+@import url("widgets/arrow.css");
+@import url("widgets/button.css");
+@import url("widgets/checkbox.css");
+@import url("widgets/frame.css");
+@import url("widgets/headerbar.css");
+@import url("widgets/list.css");
+@import url("widgets/menu.css");
+@import url("widgets/notebook.css");
+@import url("widgets/pane-separator.css");
+@import url("widgets/popover.css");
+@import url("widgets/progress_bar.css");
+@import url("widgets/scale.css");
+@import url("widgets/scrollbar.css");
+@import url("widgets/spinner.css");
+@import url("widgets/switch.css");
+@import url("widgets/tooltip.css");
+@import url("widgets/treeview.css");
