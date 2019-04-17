@@ -23,7 +23,7 @@ scale slider {
 }
 
 scale slider:disabled {
-    background: shade(@input_bg_color, 0.94);
+    background: mix(@input_fg_color, @input_bg_color, 0.94);
 }
 
 scale mark {
