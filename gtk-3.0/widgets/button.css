@@ -39,7 +39,7 @@ button:checked {
         mix(@input_fg_color, @base_color, 0.90));
 }
 button:disabled {
-    background: mix(@input_fg_color, @input_bg_color, 0.94);
+    background: @base_color;
 }
 
 button.link label {
