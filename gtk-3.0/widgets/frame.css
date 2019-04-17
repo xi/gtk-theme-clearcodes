@@ -1,3 +1,12 @@
+frame {
+    padding: 0 0.5em;
+}
+
+frame label {
+    margin: 0 0.2em;
+}
+
 frame border {
+    margin: 0 -0.5em;
     border-width: 1px;
 }
