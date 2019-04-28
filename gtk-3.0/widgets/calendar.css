@@ -1,0 +1,19 @@
+calendar {
+    border-width: 1px;
+}
+
+calendar.header {
+    background-color: @base_color;
+}
+
+calendar calendar {
+    padding: 2px;
+}
+
+calendar.highlight {
+    color: @secondary_fg_color;
+}
+
+calendar:indeterminate {
+    color: mix(@secondary_fg_color, @bg_color, 0.5);
+}

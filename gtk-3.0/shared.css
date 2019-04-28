@@ -62,6 +62,7 @@ button:focus {
 @import url("widgets/app-notification.css");
 @import url("widgets/arrow.css");
 @import url("widgets/button.css");
+@import url("widgets/calendar.css");
 @import url("widgets/checkbox.css");
 @import url("widgets/frame.css");
 @import url("widgets/headerbar.css");
