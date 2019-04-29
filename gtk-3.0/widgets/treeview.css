@@ -21,6 +21,7 @@ treeview.progressbar:selected:focus {
 treeview header button {
     border-radius: 0;
     border-width: 0;
+    border-bottom-width: 1px;
 }
 treeview header button:not(:last-child) {
     border-right-width: 1px;
