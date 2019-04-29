@@ -41,7 +41,7 @@ toolbar button {
     padding: 0.2em;
 }
 
-separator {
+menu separator {
     background-color: @border_color;
     margin: 0.2em;
     min-width: 1px;
