@@ -1,7 +1,7 @@
 menubar,
 actionbar,
 toolbar {
-    background: @bg_color;
+    background: @base_color;
     color: @fg_color;
 }
 
