@@ -1,10 +1,17 @@
 menubar,
+actionbar,
 toolbar {
     background: @bg_color;
     color: @fg_color;
 }
+
 toolbar {
     padding: 1px;
+}
+
+actionbar {
+    padding: 0.5em;
+    border-top-width: 1px;
 }
 
 menu {
@@ -29,6 +36,7 @@ combobox menuitem:hover * {
     color: @selected_fg_color;
 }
 
+actionbar button,
 toolbar button {
     padding: 0.2em;
 }
