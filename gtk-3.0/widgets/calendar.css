@@ -15,5 +15,5 @@ calendar.highlight {
 }
 
 calendar:indeterminate {
-    color: mix(@secondary_fg_color, @bg_color, 0.5);
+    color: mix(@secondary_fg_color, @base_color, 0.4);
 }
