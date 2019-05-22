@@ -14,7 +14,7 @@ switch slider {
     background-image: linear-gradient(to bottom,
         @input_bg_color,
         @input_bg_color 40%,
-        mix(@input_fg_color, @input_bg_color, 0.94));
+        shade(@input_bg_color, 0.94));
     border-width: 1px;
     border-radius: 3px;
     margin: -1px;
@@ -24,7 +24,7 @@ switch:focus slider {
     background-image: linear-gradient(to bottom,
         @input_bg_color,
         @input_bg_color 40%,
-        mix(@input_fg_color, @input_bg_color, 0.98));
+        shade(@input_bg_color, 0.98));
 }
 
 switch:disabled slider {
