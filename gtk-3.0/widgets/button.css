@@ -1,6 +1,6 @@
 button,
 switch slider {
-    border-radius: 3px;
+    border-radius: 2px;
     padding: 0.8em;
     border-width: 1px;
     background-image: linear-gradient(to bottom,
@@ -70,14 +70,14 @@ button.link:active label {
 .linked.horizontal > button:first-child,
 .linked.horizontal > entry:first-child,
 .linked.horizontal > combobox:first-child button.combo {
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 .linked.horizontal > button:last-child,
 .linked.horizontal > entry:last-child,
 .linked.horizontal > combobox:last-child button.combo {
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 .linked.horizontal > button,
 .linked.horizontal > entry {
@@ -91,14 +91,14 @@ button.link:active label {
 .linked.vertical > button:first-child,
 .linked.vertical > entry:first-child,
 .linked.vertical > combobox:first-child button.combo {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 .linked.vertical > button:last-child,
 .linked.vertical > entry:last-child,
 .linked.vertical > combobox:last-child button.combo {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 .linked.vertical > button,
 .linked.vertical > entry {
@@ -146,7 +146,7 @@ combobox button {
 switch {
     border-width: 1px;
     font-weight: bold;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 switch:checked {
