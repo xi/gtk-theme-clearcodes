@@ -91,7 +91,7 @@ button.link:active label {
 }
 .linked.vertical > button,
 .linked.vertical > entry {
-    border-bottom-width: 0px;
+    border-bottom-width: 0;
 }
 .linked.vertical > :focus + button,
 .linked.vertical > :focus + entry {
