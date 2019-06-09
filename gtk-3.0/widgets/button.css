@@ -9,7 +9,8 @@ button {
     color: @input_fg_color;
 }
 
-button.flat {
+button.flat,
+button.titlebutton {
     background: none;
     border-color: transparent;
 }
@@ -17,7 +18,11 @@ button.flat {
 button.flat:hover,
 button.flat:focus,
 button.flat:active,
-button.flat:checked {
+button.flat:checked,
+button.titlebutton:hover,
+button.titlebutton:focus,
+button.titlebutton:active,
+button.titlebutton:checked {
     border-color: @border_color;
 }
 
