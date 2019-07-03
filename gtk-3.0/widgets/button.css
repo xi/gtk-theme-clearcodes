@@ -59,7 +59,6 @@ button.link:active label {
 .linked.horizontal > combobox button.combo,
 .linked.vertical > combobox button.combo {
     border-radius: 0;
-    border-width: 1px;
 }
 
 .linked.horizontal > button:first-child,
