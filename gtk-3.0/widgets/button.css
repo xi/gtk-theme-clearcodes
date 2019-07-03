@@ -55,18 +55,22 @@ button.link:active label {
 }
 
 .linked > button,
-.linked > entry {
+.linked > entry,
+.linked.horizontal > combobox button.combo,
+.linked.vertical > combobox button.combo {
     border-radius: 0;
     border-width: 1px;
 }
 
 .linked.horizontal > button:first-child,
-.linked.horizontal > entry:first-child {
+.linked.horizontal > entry:first-child,
+.linked.horizontal > combobox:first-child button.combo {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 .linked.horizontal > button:last-child,
-.linked.horizontal > entry:last-child {
+.linked.horizontal > entry:last-child,
+.linked.horizontal > combobox:last-child button.combo {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
@@ -80,12 +84,14 @@ button.link:active label {
 }
 
 .linked.vertical > button:first-child,
-.linked.vertical > entry:first-child {
+.linked.vertical > entry:first-child,
+.linked.vertical > combobox:first-child button.combo {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
 .linked.vertical > button:last-child,
-.linked.vertical > entry:last-child {
+.linked.vertical > entry:last-child,
+.linked.vertical > combobox:last-child button.combo {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
