@@ -66,6 +66,7 @@ button:focus {
 @import url("widgets/button.css");
 @import url("widgets/calendar.css");
 @import url("widgets/checkbox.css");
+@import url("widgets/decoration.css");
 @import url("widgets/frame.css");
 @import url("widgets/headerbar.css");
 @import url("widgets/list.css");

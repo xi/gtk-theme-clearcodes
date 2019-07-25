@@ -1,0 +1,15 @@
+decoration {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+decoration:backdrop {
+    box-shadow: 0 0 8px transparent, /* this should match normal shadow geometries */
+                0 0 4px rgba(0, 0, 0, 0.2);
+    transition: 100ms ease-out;
+}
+
+.tooltip decoration,
+.popup decoration {
+    border-width: 0;
+    box-shadow: none;
+}
