@@ -6,6 +6,10 @@ headerbar {
     box-shadow: 0 0 0.2em @border_color;
 }
 
+headerbar:backdrop {
+    background: mix(@base_color, @bg_color, 0.5);
+}
+
 searchbar {
     border-bottom-width: 1px;
 }
