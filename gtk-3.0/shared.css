@@ -16,6 +16,7 @@ selection,
     color: @selected_fg_color;
 }
 /* !important seems to be broken, so I use this hack to push specificity */
+*:backdrop:backdrop,
 *:disabled:disabled {
     color: @secondary_fg_color;
     -gtk-icon-effect: dim;
@@ -41,6 +42,7 @@ entry {
     background-color: @input_bg_color;
     color: @input_fg_color;
 }
+entry:backdrop,
 entry:disabled {
     background: shade(@input_bg_color, 0.94);
 }

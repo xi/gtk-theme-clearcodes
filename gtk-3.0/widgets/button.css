@@ -38,6 +38,7 @@ button:checked {
         shade(@base_color, 0.95),
         shade(@base_color, 0.9));
 }
+button:backdrop,
 button:disabled {
     background: @base_color;
 }
