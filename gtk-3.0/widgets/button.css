@@ -10,22 +10,6 @@ switch slider {
     color: @input_fg_color;
 }
 
-button.flat {
-    background: none;
-    border-color: transparent;
-}
-
-button.flat:hover,
-button.flat:focus,
-button.flat:active,
-button.flat:checked {
-    border-color: @border_color;
-}
-
-button.circular {
-    border-radius: 100em;
-}
-
 button:hover,
 button:focus,
 switch:hover slider,
@@ -46,6 +30,22 @@ button:disabled,
 switch:backdrop slider,
 switch:disabled slider {
     background: @base_color;
+}
+
+button.flat {
+    background: none;
+    border-color: transparent;
+}
+
+button.flat:hover,
+button.flat:focus,
+button.flat:active,
+button.flat:checked {
+    border-color: @border_color;
+}
+
+button.circular {
+    border-radius: 100em;
 }
 
 button.link label {
