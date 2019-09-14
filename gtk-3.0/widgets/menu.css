@@ -14,6 +14,11 @@ actionbar {
     border-top-width: 1px;
 }
 
+.inline-toolbar {
+    padding: 0.5em;
+    border-width: 0 1px 1px;
+}
+
 menu {
     background: @input_bg_color;
     color: @input_fg_color;
