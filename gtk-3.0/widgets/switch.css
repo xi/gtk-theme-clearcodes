@@ -29,5 +29,5 @@ switch:focus slider {
 
 switch:backdrop slider,
 switch:disabled slider {
-    background: @secondary_fg_color;
+    background: @base_color;
 }
