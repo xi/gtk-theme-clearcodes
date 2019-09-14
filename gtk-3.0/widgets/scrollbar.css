@@ -2,9 +2,8 @@
     -GtkScrolledWindow-scrollbar-spacing: 0;
 }
 
-scrolledwindow {
+scrolledwindow.frame {
     border-width: 1px;
-    margin: -1px;
 }
 
 scrollbar {
