@@ -28,9 +28,6 @@ selection,
 statusbar {
     color: @fg_color;
 }
-statusbar border {
-    border: 0;
-}
 
 .view,
 .cell {

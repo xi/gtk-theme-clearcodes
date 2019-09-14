@@ -10,3 +10,7 @@ frame border {
     margin: 0 -0.5em;
     border-width: 1px;
 }
+
+frame border.flat {
+    border-width: 0;
+}
