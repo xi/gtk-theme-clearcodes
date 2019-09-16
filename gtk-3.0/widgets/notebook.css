@@ -18,7 +18,7 @@ notebook tab {
     color: @secondary_fg_color;
 }
 notebook tab:checked {
-    color: @fg_color;
+    color: @input_fg_color;
 }
 
 notebook .top tab {

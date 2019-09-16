@@ -23,11 +23,7 @@ selection,
 }
 .background {
     background: @base_color;
-    color: @fg_color;
-}
-
-statusbar {
-    color: @fg_color;
+    color: @text_color;
 }
 
 .view,
