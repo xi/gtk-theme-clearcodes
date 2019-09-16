@@ -18,7 +18,7 @@ selection,
 /* !important seems to be broken, so I use this hack to push specificity */
 *:backdrop:backdrop,
 *:disabled:disabled {
-    color: @secondary_fg_color;
+    color: mix(@text_color, @base_color, 0.4);
     -gtk-icon-effect: dim;
 }
 .background {
