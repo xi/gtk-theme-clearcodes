@@ -3,6 +3,7 @@ treeview.view:selected:focus {
 }
 
 treeview header button {
+    padding: 0.1em 0.7em;
     border-radius: 0;
     border-width: 0;
     border-bottom-width: 1px;
