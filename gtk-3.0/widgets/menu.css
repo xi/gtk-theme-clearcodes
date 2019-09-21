@@ -5,6 +5,10 @@ toolbar {
     color: @text_color;
 }
 
+placessidebar list {
+    background-color: @bg_color;
+}
+
 toolbar {
     padding: 1px;
 }
