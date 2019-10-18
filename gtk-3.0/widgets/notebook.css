@@ -10,7 +10,7 @@ notebook header {
     color: mix(@text_color, @base_color, 0.4);
 }
 
-notebook > stack {
+notebook.frame > stack {
     border: 1px solid @border_color;
 }
 
