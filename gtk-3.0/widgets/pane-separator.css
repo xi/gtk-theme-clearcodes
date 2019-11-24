@@ -12,5 +12,5 @@ paned.vertical > separator {
 }
 
 paned separator:hover {
-    background-color: @bg_color;
+    background-color: @bg_color_secondary;
 }

@@ -1,12 +1,12 @@
 menubar,
 actionbar,
 toolbar {
-    background: @base_color;
-    color: @text_color;
+    background: @bg_color;
+    color: @fg_color;
 }
 
 placessidebar list {
-    background-color: @bg_color;
+    background-color: @bg_color_secondary;
 }
 
 toolbar {
@@ -24,8 +24,8 @@ actionbar {
 }
 
 menu {
-    background: @input_bg_color;
-    color: @input_fg_color;
+    background: @base_color;
+    color: @text_color;
     border-width: 1px;
 }
 

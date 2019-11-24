@@ -1,13 +1,13 @@
 notebook,
 notebook tab:checked {
-    background: @input_bg_color;
-    color: @input_fg_color;
+    background: @base_color;
+    color: @text_color;
 }
 
 notebook tab,
 notebook header {
-    background: @base_color;
-    color: mix(@text_color, @base_color, 0.4);
+    background: @bg_color;
+    color: mix(@fg_color, @bg_color, 0.4);
 }
 
 notebook.frame > stack {

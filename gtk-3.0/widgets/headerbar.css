@@ -1,5 +1,5 @@
 headerbar {
-    background: @bg_color;
+    background: @bg_color_secondary;
     color: @fg_color;
     padding: 0.5em;
     border-bottom-width: 1px;
@@ -7,7 +7,7 @@ headerbar {
 }
 
 headerbar:backdrop {
-    background: mix(@base_color, @bg_color, 0.5);
+    background: mix(@bg_color, @bg_color_secondary, 0.5);
 }
 
 searchbar {

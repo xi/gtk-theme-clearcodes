@@ -8,8 +8,8 @@ check {
     min-height: 1.2em;
     min-width: 1.2em;
     border-width: 1px;
-    background-color: @input_bg_color;
-    color: @input_fg_color;
+    background-color: @base_color;
+    color: @text_color;
 }
 
 radio:not(:last-child),

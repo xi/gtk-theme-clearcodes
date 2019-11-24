@@ -4,7 +4,7 @@ scale {
 
 scale contents {
     border-width: 1px;
-    background: @input_bg_color;
+    background: @base_color;
 }
 
 scale highlight {
@@ -18,13 +18,13 @@ scale slider {
     min-width: 14px;
     min-height: 14px;
     border: 1px solid @border_color;
-    background: @input_bg_color;
+    background: @base_color;
     margin: -7px;
 }
 
 scale slider:backdrop,
 scale slider:disabled {
-    background: @base_color;
+    background: @bg_color;
 }
 
 scale mark {

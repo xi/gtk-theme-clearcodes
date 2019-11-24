@@ -18,29 +18,29 @@ selection,
 /* !important seems to be broken, so I use this hack to push specificity */
 *:backdrop:backdrop,
 *:disabled:disabled {
-    color: mix(@text_color, @base_color, 0.4);
+    color: mix(@fg_color, @bg_color, 0.4);
     -gtk-icon-effect: dim;
 }
 .background {
-    background: @base_color;
-    color: @text_color;
+    background: @bg_color;
+    color: @fg_color;
 }
 
 .view,
 .cell {
-    background: @input_bg_color;
-    color: @input_fg_color;
+    background: @base_color;
+    color: @text_color;
 }
 
 entry {
     padding: 3px;
     border-width: 1px;
-    background-color: @input_bg_color;
-    color: @input_fg_color;
+    background-color: @base_color;
+    color: @text_color;
 }
 entry:backdrop,
 entry:disabled {
-    background: shade(@input_bg_color, 0.94);
+    background: shade(@base_color, 0.94);
 }
 
 slider:focus,

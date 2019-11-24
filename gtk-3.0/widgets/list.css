@@ -1,6 +1,6 @@
 list {
-    background: @input_bg_color;
-    color: @input_fg_color;
+    background: @base_color;
+    color: @text_color;
 }
 
 list separator {

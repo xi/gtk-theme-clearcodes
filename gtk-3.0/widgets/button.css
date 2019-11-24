@@ -4,10 +4,10 @@ switch slider {
     padding: 0.5em;
     border-width: 1px;
     background-image: linear-gradient(to bottom,
-        @input_bg_color,
-        @input_bg_color 40%,
-        shade(@input_bg_color, 0.94));
-    color: @input_fg_color;
+        @base_color,
+        @base_color 40%,
+        shade(@base_color, 0.94));
+    color: @text_color;
 }
 
 button.flat {
@@ -20,9 +20,9 @@ button:focus,
 switch:hover slider,
 switch:focus slider {
     background-image: linear-gradient(to bottom,
-        @input_bg_color,
-        @input_bg_color 40%,
-        shade(@input_bg_color, 0.98));
+        @base_color,
+        @base_color 40%,
+        shade(@base_color, 0.98));
 }
 
 button.flat:hover,
@@ -35,15 +35,15 @@ button.flat:checked {
 button:active,
 button:checked {
     background-image: linear-gradient(to bottom,
-        shade(@base_color, 0.95),
-        shade(@base_color, 0.9));
+        shade(@bg_color, 0.95),
+        shade(@bg_color, 0.9));
 }
 
 button:backdrop,
 button:disabled,
 switch:backdrop slider,
 switch:disabled slider {
-    background: @base_color;
+    background: @bg_color;
 }
 
 button.circular {
