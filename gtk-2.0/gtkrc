@@ -1,6 +1,6 @@
 # based on clearlooks
 
-gtk-color-scheme = "bg_color:#eee\nfg_color:#222\nbase_color:#fff\ntext_color:#222\nselected_bg_color:#26c\nselected_fg_color:#fff\ntooltip_bg_color:#fff\ntooltip_fg_color:#222"
+gtk-color-scheme = "bg_color:#f6f6f6\nfg_color:#222\nbase_color:#f6f6f6\ntext_color:#222\nselected_bg_color:#26c\nselected_fg_color:#fff\ntooltip_bg_color:#fff\ntooltip_fg_color:#222"
 
 style "default" {
 	xthickness = 1
