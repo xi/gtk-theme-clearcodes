@@ -13,7 +13,7 @@ reference for people who want to build their own themes.
 
 And IMHO it also looks ok, btw.
 
-![screenshot of gtk3-widget-factory](https://raw.githubusercontent.com/xi/gtk-theme-clearcodes/master/screenshots/gtk3-widget-factory.png)
+![screenshot of gtk3-widget-factory](screenshots/gtk3-widget-factory.png)
 
 ## Update
 
