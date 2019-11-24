@@ -2,13 +2,14 @@
 @define-color bg_color #e3e3e3;
 @define-color fg_color #222;
 @define-color base_color #f6f6f6;
-@define-color text_color @fg_color;
+@define-color tooltip_bg_color #fff;
+@define-color border_color #aaa;
+
 @define-color selected_bg_color #26c;
 @define-color selected_fg_color #fff;
-@define-color tooltip_bg_color #fff;
-@define-color tooltip_fg_color @text_color;
 
-@define-color border_color #aaa;
+@define-color text_color @fg_color;
+@define-color tooltip_fg_color @fg_color;
 @define-color input_bg_color @tooltip_bg_color;
 @define-color input_fg_color @tooltip_fg_color;
 @define-color focus_color @selected_bg_color;
