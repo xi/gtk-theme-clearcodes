@@ -7,6 +7,7 @@ toolbar {
 
 placessidebar list {
     background-color: @bg_color_secondary;
+    color: @fg_color;
 }
 
 toolbar {

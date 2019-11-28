@@ -23,6 +23,7 @@ switch:focus slider {
         @base_color,
         @base_color 40%,
         shade(@base_color, 0.98));
+    color: @text_color;
 }
 
 button.flat:hover,
@@ -37,6 +38,7 @@ button:checked {
     background-image: linear-gradient(to bottom,
         shade(@bg_color, 0.95),
         shade(@bg_color, 0.9));
+    color: @fg_color;
 }
 
 button:backdrop,
@@ -44,6 +46,7 @@ button:disabled,
 switch:backdrop slider,
 switch:disabled slider {
     background: @bg_color;
+    color: @fg_color;
 }
 
 button.circular {

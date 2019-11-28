@@ -4,6 +4,7 @@ calendar {
 
 calendar.header {
     background-color: @bg_color;
+    color: @fg_color;
 }
 
 calendar calendar {
@@ -11,9 +12,9 @@ calendar calendar {
 }
 
 calendar.highlight {
-    color: mix(@text_color, @base_color, 0.4);
+    color: mix(@fg_color, @bg_color, 0.3);
 }
 
 calendar:indeterminate {
-    color: mix(@text_color, @base_color, 0.6);
+    color: mix(@fg_color, @bg_color, 0.5);
 }
