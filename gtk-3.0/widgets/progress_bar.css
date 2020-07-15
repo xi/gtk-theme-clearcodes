@@ -1,6 +1,7 @@
 progressbar trough,
 treeview .trough,
-treeview .trough:selected {
+treeview .trough:selected,
+levelbar trough {
     border-width: 1px;
     background-color: @base_color;
     color: @text_color;
@@ -9,11 +10,25 @@ treeview .trough:selected {
 progressbar progress,
 progressbar progress:disabled,
 treeview .progressbar,
-treeview .progressbar:disabled {
+treeview .progressbar:disabled,
+levelbar block.filled {
     background: @selected_bg_color;
     color: @selected_fg_color;
 }
 
 entry progress {
     border-bottom: 2px solid @selected_bg_color;
+}
+
+levelbar.horizontal block {
+    min-height: 0.5em;
+}
+levelbar.vertical block {
+    min-width: 0.5em;
+}
+levelbar.discrete.horizontal block:not(:first-child) {
+    border-left-width: 1px;
+}
+levelbar.discrete.vertical block:not(:first-child) {
+    border-top-width: 1px;
 }
