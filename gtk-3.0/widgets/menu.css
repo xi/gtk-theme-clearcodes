@@ -1,12 +1,8 @@
 menubar,
 actionbar,
-toolbar {
-    background: @bg_color;
-    color: @fg_color;
-}
-
+toolbar,
 placessidebar list {
-    background-color: @bg_color_secondary;
+    background: @bg_color;
     color: @fg_color;
 }
 
