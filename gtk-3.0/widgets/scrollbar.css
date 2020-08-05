@@ -28,3 +28,29 @@ scrollbar slider:active {
 scrollbar through {
     border: 0;
 }
+
+/* HACK: farthest-side is buggy, so we use farthest-corner instead and end at 75% */
+scrolledwindow overshoot.top {
+    background-image: radial-gradient(ellipse at top, @border_color 0%, transparent 75%);
+    background-size: 100% 4%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+scrolledwindow overshoot.bottom {
+    background-image: radial-gradient(ellipse at bottom, @border_color 0%, transparent 75%);
+    background-size: 100% 4%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+scrolledwindow overshoot.left {
+    background-image: radial-gradient(ellipse at left, @border_color 0%, transparent 75%);
+    background-size: 4% 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+scrolledwindow overshoot.right {
+    background-image: radial-gradient(ellipse at right, @border_color 0%, transparent 75%);
+    background-size: 4% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
