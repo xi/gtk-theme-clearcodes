@@ -35,10 +35,12 @@ menu menuitem {
     margin: 1px;
 }
 
-menuitem:hover,
+menuitem:hover {
+    background: @selected_bg_color;
+    color: @selected_fg_color;
+}
 menuitem:hover > *,
 combobox menuitem:hover * {
-    background: @selected_bg_color;
     color: @selected_fg_color;
 }
 
