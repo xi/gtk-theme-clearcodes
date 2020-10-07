@@ -53,16 +53,18 @@ button.circular {
     border-radius: 100em;
 }
 
-button.link label {
+button.link {
     color: @focus_color;
-    text-decoration: underline;
 }
-button.link:hover label,
-button.link:focus label {
+button.link:hover,
+button.link:focus {
     color: mix(@focus_color, @fg_color, 0.2);
 }
-button.link:active label {
+button.link:active {
     color: mix(@focus_color, @fg_color, 0.5);
+}
+button.link > label {
+    text-decoration: underline;
 }
 
 .linked > button,

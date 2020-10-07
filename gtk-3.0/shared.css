@@ -43,6 +43,11 @@ entry:disabled {
     background: shade(@base_color, 0.94);
 }
 
+link {
+    color: @focus_color;
+    text-decoration: underline;
+}
+
 slider:focus,
 switch:focus slider,
 spinbutton:focus,
