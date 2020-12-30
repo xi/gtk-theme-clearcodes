@@ -22,7 +22,6 @@ scale slider {
     margin: -7px;
 }
 
-scale slider:backdrop,
 scale slider:disabled {
     background: @bg_color;
 }

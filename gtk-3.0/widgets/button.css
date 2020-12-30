@@ -41,9 +41,7 @@ button:checked {
     color: @fg_color;
 }
 
-button:backdrop,
 button:disabled,
-switch:backdrop slider,
 switch:disabled slider {
     background: @bg_color;
     color: @fg_color;

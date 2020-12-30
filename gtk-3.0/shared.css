@@ -16,7 +16,6 @@ selection,
     color: @selected_fg_color;
 }
 /* !important seems to be broken, so I use this hack to push specificity */
-*:backdrop:backdrop,
 *:disabled:disabled {
     color: mix(@fg_color, @bg_color, 0.4);
     -gtk-icon-effect: dim;
@@ -38,7 +37,6 @@ entry {
     background-color: @base_color;
     color: @text_color;
 }
-entry:backdrop,
 entry:disabled {
     background: shade(@base_color, 0.94);
 }
