@@ -21,8 +21,11 @@ In the meantime, the situation has improved a lot. [The documentation][1] is
 much better, the [reference implementation][2] is much cleaner, and there even
 is an interactive inspector (`$ GTK_DEBUG=interactive {your-app}`).
 
+On the other hand, the concept of GTK themes itself is [highly contested][3].
+
 Anyway, I think there is still value in a minimal theme that is easy to modify.
 So I will keep using this.
 
 [1]: https://developer.gnome.org/gtk3/stable/
 [2]: https://gitlab.gnome.org/GNOME/gtk/tree/master/gtk/theme/Adwaita
+[3]: https://blogs.gnome.org/tbernard/2018/10/15/restyling-apps-at-scale/
