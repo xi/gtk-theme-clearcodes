@@ -67,29 +67,29 @@ button.link > label {
 
 .linked > button,
 .linked > entry,
-.linked.horizontal > combobox button.combo,
+.linked:not(.vertical) > combobox button.combo,
 .linked.vertical > combobox button.combo {
     border-radius: 0;
 }
 
-.linked.horizontal > button:first-child,
-.linked.horizontal > entry:first-child,
-.linked.horizontal > combobox:first-child button.combo {
+.linked:not(.vertical) > button:first-child,
+.linked:not(.vertical) > entry:first-child,
+.linked:not(.vertical) > combobox:first-child button.combo {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
-.linked.horizontal > button:last-child,
-.linked.horizontal > entry:last-child,
-.linked.horizontal > combobox:last-child button.combo {
+.linked:not(.vertical) > button:last-child,
+.linked:not(.vertical) > entry:last-child,
+.linked:not(.vertical) > combobox:last-child button.combo {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-.linked.horizontal > button,
-.linked.horizontal > entry {
+.linked:not(.vertical) > button,
+.linked:not(.vertical) > entry {
     border-right-width: 0;
 }
-.linked.horizontal > :focus + button,
-.linked.horizontal > :focus + entry {
+.linked:not(.vertical) > :focus + button,
+.linked:not(.vertical) > :focus + entry {
     border-left: 0;
 }
 
@@ -130,7 +130,7 @@ spinbutton entry {
 spinbutton button {
     border-radius: 0;
 }
-spinbutton.horizontal button {
+spinbutton:not(.vertical) button {
     border-width: 0 0 0 1px;
 }
 spinbutton.vertical button.up {

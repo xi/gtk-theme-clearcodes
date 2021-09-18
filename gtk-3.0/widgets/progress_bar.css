@@ -20,13 +20,13 @@ entry progress {
     border-bottom: 2px solid @selected_bg_color;
 }
 
-levelbar.horizontal block {
+levelbar:not(.vertical) block {
     min-height: 0.5em;
 }
 levelbar.vertical block {
     min-width: 0.5em;
 }
-levelbar.discrete.horizontal block:not(:first-child) {
+levelbar.discrete:not(.vertical) block:not(:first-child) {
     border-left-width: 1px;
 }
 levelbar.discrete.vertical block:not(:first-child) {
