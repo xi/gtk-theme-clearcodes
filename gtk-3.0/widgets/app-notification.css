@@ -1,11 +1,9 @@
 .app-notification {
     background-color: @tooltip_bg_color;
     color: @tooltip_fg_color;
-    padding: 0.5em;
-    border: 1px solid @border_color;
+    margin: 0.5em;
 }
 
 .app-notification border {
-    border-width: 0;
-    padding: 0;
+    padding: 0.5em;
 }
