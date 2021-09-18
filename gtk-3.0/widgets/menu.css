@@ -24,6 +24,7 @@ menu {
     background: @base_color;
     color: @text_color;
     border-width: 1px;
+    padding: 1px;
 }
 
 menuitem {
@@ -32,7 +33,6 @@ menuitem {
 
 menu menuitem {
     padding: 0.4em;
-    margin: 1px;
 }
 
 menuitem:hover,
@@ -49,7 +49,6 @@ toolbar button {
 
 menu separator {
     background-color: @border_color;
-    margin: 0.2em;
     min-width: 1px;
     min-height: 1px;
 }
