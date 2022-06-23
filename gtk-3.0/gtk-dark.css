@@ -12,7 +12,7 @@
 @define-color focus_color @selected_bg_color;
 @define-color tooltip_bg_color @base_color;
 @define-color tooltip_fg_color @text_color;
-@define-color button_bg_color #333;
+@define-color button_bg_color #444;
 @define-color button_fg_color @text_color;
 
 @import url("shared.css");
