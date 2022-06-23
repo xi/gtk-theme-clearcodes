@@ -15,11 +15,10 @@ scale highlight {
 
 scale slider {
     border-radius: 50%;
-    min-width: 14px;
-    min-height: 14px;
-    border: 1px solid @border_color;
-    background: @base_color;
-    margin: -7px;
+    padding: 0;
+    min-width: 12px;
+    min-height: 12px;
+    margin: -6px;
 }
 
 scale slider:disabled {

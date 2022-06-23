@@ -1,5 +1,6 @@
 button,
-switch slider {
+switch slider,
+scale slider {
     border-radius: 3px;
     padding: 0.5em;
     border-width: 1px;
@@ -18,7 +19,9 @@ button.flat {
 button:hover,
 button:focus,
 switch:hover slider,
-switch:focus slider {
+switch:focus slider,
+scale:hover slider,
+scale:focus slider {
     background-image: linear-gradient(to bottom,
         @button_bg_color,
         @button_bg_color 40%,
@@ -42,7 +45,8 @@ button:checked {
 }
 
 button:disabled,
-switch:disabled slider {
+switch:disabled slider,
+scale:disabled slider {
     background: @bg_color;
     color: @fg_color;
 }
