@@ -1,5 +1,4 @@
 button,
-switch slider,
 scale slider {
     border-radius: 3px;
     padding: 0.5em;
@@ -18,8 +17,6 @@ button.flat {
 
 button:hover,
 button:focus,
-switch:hover slider,
-switch:focus slider,
 scale:hover slider,
 scale:focus slider {
     background-image: linear-gradient(to bottom,
@@ -45,7 +42,6 @@ button:checked {
 }
 
 button:disabled,
-switch:disabled slider,
 scale:disabled slider {
     background: @bg_color;
     color: @fg_color;
@@ -152,8 +148,9 @@ combobox button {
 
 switch {
     border-width: 1px;
-    font-weight: bold;
-    border-radius: 3px;
+    border-radius: 1000px;
+    background-color: @base_color;
+    color: @text_color;
 }
 
 switch:checked {
@@ -162,6 +159,15 @@ switch:checked {
 }
 
 switch slider {
-    margin: -1px;
-    padding: 0;
+    margin: 0.4em;
+    min-width: 1em;
+    min-height: 1em;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+/* hide on/off icons */
+switch image,
+switch image:disabled:disabled {
+    color: transparent;
 }
