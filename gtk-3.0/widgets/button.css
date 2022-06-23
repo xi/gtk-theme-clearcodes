@@ -90,7 +90,7 @@ button.link > label {
 }
 .linked:not(.vertical) > :focus + button,
 .linked:not(.vertical) > :focus + entry {
-    border-left: 0;
+    border-left-color: @focus_color;
 }
 
 .linked.vertical > button:first-child,
@@ -111,13 +111,11 @@ button.link > label {
 }
 .linked.vertical > :focus + button,
 .linked.vertical > :focus + entry {
-    border-top: 0;
+    border-top-color: @focus_color;
 }
 
 .linked > button:last-child,
-.linked > entry:last-child,
-.linked > button:focus,
-.linked > entry:focus {
+.linked > entry:last-child {
     border-width: 1px;
 }
 
