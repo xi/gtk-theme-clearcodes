@@ -3,10 +3,7 @@ scale slider {
     border-radius: 3px;
     padding: 0.5em;
     border-width: 1px;
-    background-image: linear-gradient(to bottom,
-        @button_bg_color,
-        @button_bg_color 40%,
-        shade(@button_bg_color, 0.94));
+    background-color: @button_bg_color;
     color: @button_fg_color;
 }
 
@@ -19,10 +16,7 @@ button:hover,
 button:focus,
 scale:hover slider,
 scale:focus slider {
-    background-image: linear-gradient(to bottom,
-        @button_bg_color,
-        @button_bg_color 40%,
-        shade(@button_bg_color, 0.98));
+    background-color: mix(@button_bg_color, @bg_color, 0.5);
     color: @button_fg_color;
 }
 
@@ -35,9 +29,7 @@ button.flat:checked {
 
 button:active,
 button:checked {
-    background-image: linear-gradient(to bottom,
-        shade(@bg_color, 0.95),
-        shade(@bg_color, 0.9));
+    background-color: shade(@bg_color, 0.9);
     color: @fg_color;
 }
 
