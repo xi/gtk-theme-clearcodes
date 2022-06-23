@@ -84,13 +84,13 @@ button.link > label {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-.linked:not(.vertical) > button:not(:first-child),
-.linked:not(.vertical) > entry:not(:first-child) {
-    margin-left: -1px;
+.linked:not(.vertical) > button,
+.linked:not(.vertical) > entry {
+    border-right-width: 0;
 }
-.linked:not(.vertical) > button:focus + button,
-.linked:not(.vertical) > entry:focus + entry {
-    border-left-color: transparent;
+.linked:not(.vertical) > :focus + button,
+.linked:not(.vertical) > :focus + entry {
+    border-left: 0;
 }
 
 .linked.vertical > button:first-child,
@@ -105,13 +105,13 @@ button.link > label {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-.linked.vertical > button:not(:first-child),
-.linked.vertical > entry:not(:first-child) {
-    margin-top: -1px;
+.linked.vertical > button,
+.linked.vertical > entry {
+    border-bottom-width: 0;
 }
-.linked.vertical > button:focus + button,
-.linked.vertical > entry:focus + entry {
-    border-top-color: transparent;
+.linked.vertical > :focus + button,
+.linked.vertical > :focus + entry {
+    border-top: 0;
 }
 
 .linked > button:last-child,
