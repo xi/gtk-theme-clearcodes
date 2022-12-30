@@ -4,6 +4,9 @@ headerbar {
     padding: 0.5em;
     border-bottom-width: 1px;
     box-shadow: 0 0 0.2em @border_color;
+
+    /* HACK for squishy headerbars */
+    min-height: 2.4em;
 }
 
 searchbar {
