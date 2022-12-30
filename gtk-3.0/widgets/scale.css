@@ -26,7 +26,6 @@ scale slider:disabled {
 }
 
 scale mark {
-    background-color: @border_color;
     margin-top: 2px;
     min-height: 5px;
     min-width: 1px;
