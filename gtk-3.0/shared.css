@@ -41,6 +41,10 @@ entry:disabled {
     background: shade(@base_color, 0.94);
 }
 
+.heading {
+    font-weight: bold;
+}
+
 link {
     color: @focus_color;
     text-decoration: underline;
