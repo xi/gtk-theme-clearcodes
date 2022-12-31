@@ -117,6 +117,12 @@ spinbutton {
 spinbutton entry {
     border-width: 0;
 }
+spinbutton:not(.vertical) entry {
+    min-width: 2.5em;
+}
+spinbutton.vertical entry {
+    min-height: 2.5em;
+}
 spinbutton button {
     border-radius: 0;
 }
