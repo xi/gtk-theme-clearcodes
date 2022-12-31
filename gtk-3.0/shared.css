@@ -41,9 +41,20 @@ entry:disabled {
     background: shade(@base_color, 0.94);
 }
 
-.heading {
+.title-1,
+.title-2,
+.title-3,
+.title-4,
+.heading,
+.caption-heading {
     font-weight: bold;
 }
+
+.large-title { font-size: 250%; }
+.title-1 { font-size: 200%; }
+.title-2 { font-size: 175%; }
+.title-3 { font-size: 145%; }
+.title-4 { font-size: 120%; }
 
 link {
     color: @focus_color;
