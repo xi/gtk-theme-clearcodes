@@ -1,4 +1,4 @@
-/* see https://gitlab.gnome.org/GNOME/gtk/blob/master/gtk/theme/Adwaita/_colors-public.scss */
+/* see https://gitlab.gnome.org/GNOME/gtk/-/blob/main/gtk/theme/Default/_colors-public.scss */
 /* some apps use rely on these variables */
 
 @define-color theme_fg_color @fg_color;
@@ -7,3 +7,21 @@
 @define-color theme_base_color @base_color;
 @define-color theme_selected_bg_color @selected_bg_color;
 @define-color theme_selected_fg_color @selected_fg_color;
+@define-color theme_unfocused_fg_color @fg_color;
+@define-color insensitive_bg_color @bg_color;
+@define-color insensitive_fg_color mix(@fg_color, @bg_color, 0.4);
+@define-color insensitive_base_color @base_color;
+@define-color theme_unfocused_bg_color @bg_color;
+@define-color theme_unfocused_fg_color @fg_color;
+@define-color theme_unfocused_text_color @text_color;
+@define-color theme_unfocused_base_color @base_color;
+@define-color theme_unfocused_selected_bg_color @selected_bg_color;
+@define-color theme_unfocused_selected_fg_color @selected_fg_color;
+@define-color unfocused_insensitive_color @insensitive_fg_color;
+@define-color borders @border_color;
+@define-color unfocused_borders @border_color;
+@define-color warning_color #ed0;
+@define-color error_color #f33;
+@define-color success_color #7c0;
+@define-color content_view_bg @bg_color;
+@define-color text_view_bg @bg_color;
