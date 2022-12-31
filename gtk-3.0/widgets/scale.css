@@ -1,8 +1,12 @@
-scale {
-    padding: 8px;
+scale:not(.vertical) {
+    padding: 8px 0;
+}
+scale.vertical {
+    padding: 0 8px;
 }
 
-scale contents {
+
+scale trough {
     border-width: 1px;
     background: @base_color;
 }
