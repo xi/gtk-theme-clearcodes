@@ -18,43 +18,51 @@ notebook tab {
     padding: 3px 5px;
     border-width: 1px;
 }
+notebook .top tab + tab,
+notebook .bottom tab + tab {
+    margin-left: -1px;
+}
+notebook .left tab + tab,
+notebook .right tab + tab {
+    margin-top: -1px;
+}
 
 notebook .top tab {
-    margin-top: 2px;
+    margin-top: 3px;
     margin-bottom: -1px;
 }
 notebook .top tab:checked {
     margin-top: 0;
-    border-top: 2px solid @selected_bg_color;
+    border-top: 3px solid @selected_bg_color;
     border-bottom: 0;
 }
 
 notebook .bottom tab {
-    margin-bottom: 2px;
+    margin-bottom: 3px;
     margin-top: -1px;
 }
 notebook .bottom tab:checked {
     margin-bottom: 0;
-    border-bottom: 2px solid @selected_bg_color;
+    border-bottom: 3px solid @selected_bg_color;
     border-top: 0;
 }
 
 notebook .left tab {
-    margin-left: 2px;
+    margin-left: 3px;
     margin-right: -1px;
 }
 notebook .left tab:checked {
     margin-left: 0;
-    border-left: 2px solid @selected_bg_color;
+    border-left: 3px solid @selected_bg_color;
     border-right: 0;
 }
 
 notebook .right tab {
-    margin-right: 2px;
+    margin-right: 3px;
     margin-left: -1px;
 }
 notebook .right tab:checked {
     margin-right: 0;
-    border-right: 2px solid @selected_bg_color;
+    border-right: 3px solid @selected_bg_color;
     border-left: 0;
 }
