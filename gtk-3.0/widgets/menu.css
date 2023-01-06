@@ -6,17 +6,16 @@ placessidebar list {
     color: @fg_color;
 }
 
-toolbar {
-    padding: 1px;
+toolbar,
+actionbar {
+    padding: 0.5em;
 }
 
 actionbar {
-    padding: 0.5em;
     border-top-width: 1px;
 }
 
 .inline-toolbar {
-    padding: 0.5em;
     border-width: 0 1px 1px;
 }
 
