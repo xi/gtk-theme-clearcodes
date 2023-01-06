@@ -1,16 +1,16 @@
 paned separator {
-    background-color: transparent;
-    background-image: url("../assets/pane-handle.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    min-width: 4px;
-    min-height: 4px;
+    min-width: 1px;
+    min-height: 1px;
+    background-color: @border_color;
+    background-clip: content-box;
+    -gtk-icon-source: none;
 }
 
+paned:not(.vertical) > separator {
+    padding: 0 8px;
+    margin: 0 -8px;
+}
 paned.vertical > separator {
-    background-image: url("../assets/pane-handle-vertical.svg");
-}
-
-paned separator:hover {
-    background-color: @bg_color_secondary;
+    padding: 8px 0;
+    margin: -8px 0;
 }
