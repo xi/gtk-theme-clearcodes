@@ -27,11 +27,12 @@ menu {
 }
 
 menuitem {
-    padding: 0.4em 1em;
+    padding: 0.2em 1em;
+    min-height: 16px;  /* enough space for icon */
 }
 
 menu menuitem {
-    padding: 0.4em;
+    padding: 0.2em 0.4em;
 }
 
 menuitem:hover,
