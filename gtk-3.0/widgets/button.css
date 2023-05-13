@@ -7,6 +7,12 @@ scale slider {
     color: @button_fg_color;
 }
 
+button.suggested-action {
+    background-color: @selected_bg_color;
+    color: @selected_fg_color;
+    border-color: @selected_bg_color;
+}
+
 button.flat {
     background: none;
     border-color: transparent;
@@ -18,6 +24,12 @@ scale:hover slider,
 scale:focus slider {
     background-color: mix(@button_bg_color, @button_fg_color, 0.1);
     color: @button_fg_color;
+}
+
+button.suggested-action:hover,
+button.suggested-action:focus {
+    background-color: mix(@selected_bg_color, @selected_fg_color, 0.1);
+    color: @selected_fg_color;
 }
 
 button.flat:hover,
@@ -37,8 +49,13 @@ button:active {
     color: @fg_color;
 }
 
-button:disabled,
-scale:disabled slider {
+button.suggested-action:active {
+    background-color: mix(@selected_bg_color, @selected_fg_color, 0.3);
+    color: @selected_fg_color;
+}
+
+button:disabled:disabled,
+scale:disabled:disabled slider {
     background: @bg_color;
     color: @fg_color;
 }
