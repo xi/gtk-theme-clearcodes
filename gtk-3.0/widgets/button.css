@@ -19,21 +19,17 @@ button.flat {
 }
 
 button:hover,
-button:focus,
-scale:hover slider,
-scale:focus slider {
+scale:hover slider {
     background-color: mix(@button_bg_color, @button_fg_color, 0.1);
     color: @button_fg_color;
 }
 
-button.suggested-action:hover,
-button.suggested-action:focus {
+button.suggested-action:hover {
     background-color: mix(@selected_bg_color, @selected_fg_color, 0.1);
     color: @selected_fg_color;
 }
 
 button.flat:hover,
-button.flat:focus,
 button.flat:active,
 button.flat:checked {
     border-color: @border_color;
@@ -67,8 +63,7 @@ button.circular {
 button.link {
     color: @focus_color;
 }
-button.link:hover,
-button.link:focus {
+button.link:hover {
     color: mix(@focus_color, @fg_color, 0.2);
 }
 button.link:active {
