@@ -1,20 +1,36 @@
+progressbar trough,
+treeview .trough,
+levelbar trough,
+scale trough {
+    border-width: 1px;
+    background-color: @base_color;
+    min-height: 0.5em;
+    min-width: 0.5em;
+}
+
+progressbar progress,
+treeview .progressbar,
+levelbar block.filled,
+scale highlight {
+    background: @selected_bg_color;
+}
+
+entry progress {
+    border-bottom: 2px solid @selected_bg_color;
+}
+
+levelbar.discrete:not(.vertical) block:not(:first-child) {
+    border-left-width: 1px;
+}
+levelbar.discrete.vertical block:not(:first-child) {
+    border-top-width: 1px;
+}
+
 scale:not(.vertical) {
     padding: 8px 0;
 }
 scale.vertical {
     padding: 0 8px;
-}
-
-
-scale trough {
-    border-width: 1px;
-    background: @base_color;
-}
-
-scale highlight {
-    background: @selected_bg_color;
-    min-width: 6px;
-    min-height: 6px;
 }
 
 scale slider {
@@ -23,10 +39,6 @@ scale slider {
     min-width: 12px;
     min-height: 12px;
     margin: -6px;
-}
-
-scale slider:disabled {
-    background: @bg_color;
 }
 
 scale mark {
