@@ -25,3 +25,7 @@ frame {
 statusbar {
     padding: 0.5em;
 }
+
+button separator {
+    margin: 0 0.5em;
+}
