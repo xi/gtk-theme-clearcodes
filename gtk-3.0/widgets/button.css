@@ -185,3 +185,8 @@ switch image,
 switch image:disabled:disabled {
     color: transparent;
 }
+
+button separator {
+    min-width: 1px;
+    background-color: @border_color;
+}
