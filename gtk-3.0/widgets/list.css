@@ -13,7 +13,7 @@ list separator {
     border-bottom: 1px solid @border_color;
 }
 
-.sidebar-row {
+row {
     padding: 0.5em 1em;
 }
 .sidebar-icon {
