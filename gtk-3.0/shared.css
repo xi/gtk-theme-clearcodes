@@ -32,7 +32,7 @@ selection,
 }
 
 entry {
-    padding: 3px;
+    padding: 0.5em;
     border-width: 1px;
     border-radius: 3px;
     background-color: @base_color;
