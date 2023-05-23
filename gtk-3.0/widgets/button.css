@@ -13,6 +13,7 @@ button.suggested-action {
     border-color: @selected_bg_color;
 }
 
+.toolbar > button,
 button.flat {
     background: none;
     border-color: transparent;
@@ -29,6 +30,9 @@ button.suggested-action:hover {
     color: @selected_fg_color;
 }
 
+.toolbar > button:hover,
+.toolbar > button:active,
+.toolbar > button:checked,
 button.flat:hover,
 button.flat:active,
 button.flat:checked {
@@ -130,12 +134,16 @@ button.link > label {
 spinbutton {
     border-width: 1px;
 }
+spinbutton text,
 spinbutton entry {
+    padding: 3px;
     border-width: 0;
 }
+spinbutton:not(.vertical) text,
 spinbutton:not(.vertical) entry {
     min-width: 2.5em;
 }
+spinbutton.vertical text,
 spinbutton.vertical entry {
     min-height: 2.5em;
 }

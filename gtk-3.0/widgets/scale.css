@@ -15,6 +15,13 @@ scale highlight {
     background: @selected_bg_color;
 }
 
+progressbar:not(.vertical) progress {
+    min-height: 0.5em;
+}
+progressbar.vertical progress {
+    min-width: 0.5em;
+}
+
 entry progress {
     border-bottom: 2px solid @selected_bg_color;
 }

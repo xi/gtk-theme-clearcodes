@@ -1,20 +1,33 @@
 calendar {
     border-width: 1px;
 }
-
-calendar.header {
+calendar header,
+calendar .header {
     background-color: @bg_color;
     color: @fg_color;
+    border-bottom-width: 1px;
 }
 
+calendar header button,
+calendar header button:hover,
+calendar header button:active,
+calendar header button:focus {
+    border: none;
+    background: none;
+}
+
+calendar .day-number,
 calendar calendar {
     padding: 2px;
 }
 
-calendar.highlight {
+calendar.highlight,
+calendar .highlight {
     color: mix(@fg_color, @bg_color, 0.3);
 }
 
+calendar .day-name,
+calendar .other-month,
 calendar:indeterminate {
     color: mix(@fg_color, @bg_color, 0.5);
 }

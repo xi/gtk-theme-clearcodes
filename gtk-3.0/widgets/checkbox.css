@@ -17,11 +17,15 @@ check {
     border-color: currentColor;
 }
 
+radio.left,
+check.left,
 radio:not(:last-child),
 check:not(:last-child) {
     margin-right: 0.4em;
 }
 
+radio.right,
+check.right,
 radio:not(:first-child),
 check:not(:first-child) {
     margin-left: 0.4em;

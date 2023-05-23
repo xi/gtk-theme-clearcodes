@@ -11,6 +11,7 @@ actionbar {
     padding: 0.5em;
 }
 
+statusbar,
 actionbar {
     border-top-width: 1px;
 }
@@ -25,6 +26,7 @@ menu {
     padding: 1px;
 }
 
+menubar item,
 menuitem {
     padding: 0.2em 1em;
     min-height: 16px;  /* enough space for icon */
@@ -34,6 +36,8 @@ menu menuitem {
     padding: 0.2em 0.4em;
 }
 
+menu item:hover,
+menubar item:hover,
 menuitem:hover,
 menuitem:hover > *,
 combobox menuitem:hover * {

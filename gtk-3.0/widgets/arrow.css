@@ -1,3 +1,4 @@
+.expander,
 arrow {
     min-height: 14px;
     min-width: 14px;
@@ -9,6 +10,8 @@ arrow.top {
 
 arrow.bottom,
 combobox arrow,
+expander:checked,
+.expander:checked,
 expander arrow:checked {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 }
@@ -19,6 +22,8 @@ menuitem arrow {
 }
 
 arrow.right,
+expander,
+.expander,
 expander arrow {
     -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
 }
