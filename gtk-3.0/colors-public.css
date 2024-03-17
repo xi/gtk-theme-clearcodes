@@ -1,5 +1,5 @@
 /* see https://gitlab.gnome.org/GNOME/gtk/-/blob/main/gtk/theme/Default/_colors-public.scss */
-/* some apps use rely on these variables */
+/* some apps rely on these variables */
 
 @define-color theme_fg_color @fg_color;
 @define-color theme_text_color @text_color;
