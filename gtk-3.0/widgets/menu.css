@@ -22,7 +22,6 @@ actionbar {
 menu {
     background: @base_color;
     color: @text_color;
-    border-width: 1px;
     padding: 1px;
 }
 

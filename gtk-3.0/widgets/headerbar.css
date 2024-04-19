@@ -12,3 +12,7 @@ headerbar {
 searchbar {
     border-bottom-width: 1px;
 }
+
+.csd decoration {
+    border-width: 1px;
+}
