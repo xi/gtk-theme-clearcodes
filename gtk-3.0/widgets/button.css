@@ -77,27 +77,20 @@ button.link > label {
     text-decoration: underline;
 }
 
-.linked > button,
-.linked > entry,
-.linked:not(.vertical) > combobox button.combo,
-.linked.vertical > combobox button.combo {
-    border-radius: 0;
+.linked:not(.vertical) > button:not(:first-child),
+.linked:not(.vertical) > entry:not(:first-child),
+.linked:not(.vertical) > combobox:not(:first-child) button.combo {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
-
-.linked:not(.vertical) > button:first-child,
-.linked:not(.vertical) > entry:first-child,
-.linked:not(.vertical) > combobox:first-child button.combo {
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+.linked:not(.vertical) > button:not(:last-child),
+.linked:not(.vertical) > entry:not(:last-child),
+.linked:not(.vertical) > combobox:not(:last-child) button.combo {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
-.linked:not(.vertical) > button:last-child,
-.linked:not(.vertical) > entry:last-child,
-.linked:not(.vertical) > combobox:last-child button.combo {
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-.linked:not(.vertical) > button,
-.linked:not(.vertical) > entry {
+.linked:not(.vertical) > button:not(:last-child),
+.linked:not(.vertical) > entry:not(:last-child) {
     border-right-width: 0;
 }
 .linked:not(.vertical) > :focus + button,
@@ -105,30 +98,25 @@ button.link > label {
     border-left-color: @focus_color;
 }
 
-.linked.vertical > button:first-child,
-.linked.vertical > entry:first-child,
-.linked.vertical > combobox:first-child button.combo {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+.linked.vertical > button:not(:first-child),
+.linked.vertical > entry:not(:first-child),
+.linked.vertical > combobox:not(:first-child) button.combo {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
-.linked.vertical > button:last-child,
-.linked.vertical > entry:last-child,
-.linked.vertical > combobox:last-child button.combo {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+.linked.vertical > button:not(:last-child),
+.linked.vertical > entry:not(:last-child),
+.linked.vertical > combobox:not(:last-child) button.combo {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
-.linked.vertical > button,
-.linked.vertical > entry {
+.linked.vertical > button:not(:last-child),
+.linked.vertical > entry:not(:last-child) {
     border-bottom-width: 0;
 }
 .linked.vertical > :focus + button,
 .linked.vertical > :focus + entry {
     border-top-color: @focus_color;
-}
-
-.linked > button:last-child,
-.linked > entry:last-child {
-    border-width: 1px;
 }
 
 spinbutton {
