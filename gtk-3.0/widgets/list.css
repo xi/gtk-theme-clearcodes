@@ -5,7 +5,7 @@ list {
 
 list.content {
     border-width: 1px;
-    border-radius: 0.3em;
+    border-radius: 3px;
 }
 
 list.content row:not(:last-child),
