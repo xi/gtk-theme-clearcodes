@@ -77,55 +77,67 @@ button.link > label {
     text-decoration: underline;
 }
 
+spinbutton:not(.vertical) > button:not(:nth-child(3)),  /* 2 undershoot elements before */
+spinbutton:not(.vertical) > entry:not(:nth-child(3)),  /* 2 undershoot elements before */
 .linked:not(.vertical) > button:not(:first-child),
 .linked:not(.vertical) > entry:not(:first-child),
 .linked:not(.vertical) > combobox:not(:first-child) button.combo {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+spinbutton:not(.vertical) > button:not(:last-child),
+spinbutton:not(.vertical) > entry:not(:last-child),
 .linked:not(.vertical) > button:not(:last-child),
 .linked:not(.vertical) > entry:not(:last-child),
 .linked:not(.vertical) > combobox:not(:last-child) button.combo {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
+spinbutton:not(.vertical) > button:not(:last-child),
+spinbutton:not(.vertical) > entry:not(:last-child),
 .linked:not(.vertical) > button:not(:last-child),
 .linked:not(.vertical) > entry:not(:last-child) {
     border-right-width: 0;
 }
+spinbutton:not(.vertical) > :focus + button,
+spinbutton:not(.vertical) > :focus + entry,
 .linked:not(.vertical) > :focus + button,
 .linked:not(.vertical) > :focus + entry {
     border-left-color: @focus_color;
 }
 
+spinbutton.vertical > button:not(:nth-child(3)),  /* 2 undershoot elements before */
+spinbutton.vertical > entry:not(:nth-child(3)),  /* 2 undershoot elements before */
 .linked.vertical > button:not(:first-child),
 .linked.vertical > entry:not(:first-child),
 .linked.vertical > combobox:not(:first-child) button.combo {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+spinbutton.vertical > button:not(:last-child),
+spinbutton.vertical > entry:not(:last-child),
 .linked.vertical > button:not(:last-child),
 .linked.vertical > entry:not(:last-child),
 .linked.vertical > combobox:not(:last-child) button.combo {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+spinbutton.vertical > button:not(:last-child),
+spinbutton.vertical > entry:not(:last-child),
 .linked.vertical > button:not(:last-child),
 .linked.vertical > entry:not(:last-child) {
     border-bottom-width: 0;
 }
+spinbutton.vertical > :focus + button,
+spinbutton.vertical > :focus + entry,
 .linked.vertical > :focus + button,
 .linked.vertical > :focus + entry {
     border-top-color: @focus_color;
 }
 
-spinbutton {
-    border-width: 1px;
-}
 spinbutton text,
 spinbutton entry {
     padding: 3px;
-    border-width: 0;
 }
 spinbutton:not(.vertical) text,
 spinbutton:not(.vertical) entry {
@@ -134,21 +146,6 @@ spinbutton:not(.vertical) entry {
 spinbutton.vertical text,
 spinbutton.vertical entry {
     min-height: 2.5em;
-}
-spinbutton button {
-    border-radius: 0;
-}
-spinbutton:not(.vertical) button {
-    border-width: 0 0 0 1px;
-}
-spinbutton.vertical button.up {
-    border-width: 0 0 1px;
-}
-spinbutton.vertical button.down {
-    border-width: 1px 0 0;
-}
-spinbutton button:focus {
-    border-color: @border_color;
 }
 
 switch {
