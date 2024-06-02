@@ -43,7 +43,6 @@ scrolledwindow overshoot.bottom {
 }
 scrolledwindow overshoot.left {
     background-image: radial-gradient(100% 50% at left, alpha(@border_color, 0.5), transparent);
-    background-image: radial-gradient(ellipse at left, @border_color 0%, transparent 75%);
     background-size: 4% 100%;
     background-position: left;
     background-repeat: no-repeat;
