@@ -151,11 +151,6 @@ spinbutton button:focus {
     border-color: @border_color;
 }
 
-combobox button {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
 switch {
     border-width: 1px;
     border-radius: 1000px;
