@@ -1,0 +1,15 @@
+@define-color bg_color_secondary #353945;
+@define-color bg_color #2f343f;
+@define-color fg_color #ccc;
+@define-color base_color #404552;
+@define-color border_color #242b35;
+
+@define-color selected_bg_color #4084d6;
+@define-color selected_fg_color #fff;
+
+@define-color text_color @fg_color;
+@define-color focus_color @selected_bg_color;
+@define-color tooltip_bg_color @base_color;
+@define-color tooltip_fg_color @text_color;
+@define-color button_bg_color #444;
+@define-color button_fg_color @text_color;

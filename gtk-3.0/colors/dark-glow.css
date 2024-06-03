@@ -1,0 +1,16 @@
+/* based on https://www.reddit.com/r/unixporn/comments/cu5kaf/plasma_first_try_customiizing_kde/ */
+@define-color bg_color_secondary #060612;
+@define-color bg_color @bg_color_secondary;
+@define-color fg_color #b9b9ba;
+@define-color base_color #2a263c;
+@define-color border_color #050509;
+
+@define-color selected_bg_color #05bee1;
+@define-color selected_fg_color @border_color;
+
+@define-color text_color @fg_color;
+@define-color focus_color @selected_bg_color;
+@define-color tooltip_bg_color @base_color;
+@define-color tooltip_fg_color @text_color;
+@define-color button_bg_color #444;
+@define-color button_fg_color @text_color;

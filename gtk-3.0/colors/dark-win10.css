@@ -1,11 +1,11 @@
-/* default color scheme */
+/* button active style needs to be adapted */
 @define-color bg_color_secondary #000;
-@define-color bg_color #111;
+@define-color bg_color #191919;
 @define-color fg_color #fff;
-@define-color base_color #000;
-@define-color border_color #222;
+@define-color base_color #202020;
+@define-color border_color #444;
 
-@define-color selected_bg_color #26c;
+@define-color selected_bg_color #0066b4;
 @define-color selected_fg_color #fff;
 
 @define-color text_color @fg_color;
@@ -14,8 +14,3 @@
 @define-color tooltip_fg_color @text_color;
 @define-color button_bg_color #444;
 @define-color button_fg_color @text_color;
-
-/* optionally import color overwrites */
-/* @import url("colors/dark-anarchy.css"); */
-
-@import url("shared.css");
