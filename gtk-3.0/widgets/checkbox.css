@@ -12,11 +12,6 @@ check {
     color: @text_color;
 }
 
-:selected radio,
-:selected check {
-    border-color: currentColor;
-}
-
 radio.left,
 check.left,
 radio:not(:last-child),

@@ -38,7 +38,6 @@ menu menuitem {
 menu item:hover,
 menubar item:hover,
 menuitem:hover,
-menuitem:hover > *,
 combobox menuitem:hover * {
     background: @selected_bg_color;
     color: @selected_fg_color;
