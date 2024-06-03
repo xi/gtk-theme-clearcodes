@@ -15,6 +15,7 @@ searchbar {
     border-bottom-width: 1px;
 }
 
+.dialog.csd,
 .csd decoration {
     border-width: 1px;
 }
