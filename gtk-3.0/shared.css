@@ -31,6 +31,7 @@ selection,
     color: @text_color;
 }
 
+spinbutton text,
 entry {
     padding: 0.5em;
     border-width: 1px;
@@ -38,6 +39,7 @@ entry {
     background-color: @base_color;
     color: @text_color;
 }
+spinbutton text:disabled,
 entry:disabled {
     background: shade(@base_color, 0.94);
 }

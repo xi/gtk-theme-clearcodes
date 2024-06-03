@@ -79,6 +79,7 @@ button.link > label {
 
 spinbutton:not(.vertical) > button:not(:nth-child(3)),  /* 2 undershoot elements before */
 spinbutton:not(.vertical) > entry:not(:nth-child(3)),  /* 2 undershoot elements before */
+spinbutton:not(.vertical) > text:not(:first-child),
 .linked:not(.vertical) > button:not(:first-child),
 .linked:not(.vertical) > entry:not(:first-child),
 .linked:not(.vertical) > combobox:not(:first-child) button.combo {
@@ -87,6 +88,7 @@ spinbutton:not(.vertical) > entry:not(:nth-child(3)),  /* 2 undershoot elements 
 }
 spinbutton:not(.vertical) > button:not(:last-child),
 spinbutton:not(.vertical) > entry:not(:last-child),
+spinbutton:not(.vertical) > text:not(:last-child),
 .linked:not(.vertical) > button:not(:last-child),
 .linked:not(.vertical) > entry:not(:last-child),
 .linked:not(.vertical) > combobox:not(:last-child) button.combo {
@@ -95,12 +97,14 @@ spinbutton:not(.vertical) > entry:not(:last-child),
 }
 spinbutton:not(.vertical) > button:not(:last-child),
 spinbutton:not(.vertical) > entry:not(:last-child),
+spinbutton:not(.vertical) > text:not(:last-child),
 .linked:not(.vertical) > button:not(:last-child),
 .linked:not(.vertical) > entry:not(:last-child) {
     border-right-width: 0;
 }
 spinbutton:not(.vertical) > :focus + button,
 spinbutton:not(.vertical) > :focus + entry,
+spinbutton:not(.vertical) > :focus + text,
 .linked:not(.vertical) > :focus + button,
 .linked:not(.vertical) > :focus + entry {
     border-left-color: @focus_color;
@@ -108,6 +112,7 @@ spinbutton:not(.vertical) > :focus + entry,
 
 spinbutton.vertical > button:not(:nth-child(3)),  /* 2 undershoot elements before */
 spinbutton.vertical > entry:not(:nth-child(3)),  /* 2 undershoot elements before */
+spinbutton.vertical > text:not(:first-child),
 .linked.vertical > button:not(:first-child),
 .linked.vertical > entry:not(:first-child),
 .linked.vertical > combobox:not(:first-child) button.combo {
@@ -116,6 +121,7 @@ spinbutton.vertical > entry:not(:nth-child(3)),  /* 2 undershoot elements before
 }
 spinbutton.vertical > button:not(:last-child),
 spinbutton.vertical > entry:not(:last-child),
+spinbutton.vertical > text:not(:last-child),
 .linked.vertical > button:not(:last-child),
 .linked.vertical > entry:not(:last-child),
 .linked.vertical > combobox:not(:last-child) button.combo {
@@ -124,12 +130,14 @@ spinbutton.vertical > entry:not(:last-child),
 }
 spinbutton.vertical > button:not(:last-child),
 spinbutton.vertical > entry:not(:last-child),
+spinbutton.vertical > text:not(:last-child),
 .linked.vertical > button:not(:last-child),
 .linked.vertical > entry:not(:last-child) {
     border-bottom-width: 0;
 }
 spinbutton.vertical > :focus + button,
 spinbutton.vertical > :focus + entry,
+spinbutton.vertical > :focus + text,
 .linked.vertical > :focus + button,
 .linked.vertical > :focus + entry {
     border-top-color: @focus_color;
