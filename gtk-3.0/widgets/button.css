@@ -61,7 +61,7 @@ scale:disabled:disabled slider {
 }
 
 button.circular {
-    border-radius: 100em;
+    border-radius: 1000px;
 }
 
 button.link {
@@ -164,7 +164,7 @@ switch slider {
     margin: 0.4em;
     min-width: 1em;
     min-height: 1em;
-    border-radius: 50%;
+    border-radius: 1000px;
     background: currentColor;
 }
 

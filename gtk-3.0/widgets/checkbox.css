@@ -27,7 +27,7 @@ check:not(:first-child) {
 }
 
 radio {
-    border-radius: 50%;
+    border-radius: 1000px;
 }
 
 check:checked {

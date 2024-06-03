@@ -41,7 +41,7 @@ scale.vertical {
 }
 
 scale slider {
-    border-radius: 50%;
+    border-radius: 1000px;
     padding: 0;
     min-width: 12px;
     min-height: 12px;
