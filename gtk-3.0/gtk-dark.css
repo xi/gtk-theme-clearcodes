@@ -4,6 +4,7 @@
 @define-color fg_color #fff;
 @define-color base_color #000;
 @define-color border_color #222;
+@define-color shadow_color rgba(0,0,0,0.3);
 
 @define-color selected_bg_color #26c;
 @define-color selected_fg_color #fff;
