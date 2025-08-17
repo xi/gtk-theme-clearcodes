@@ -124,16 +124,16 @@ spinbutton {
 }
 spinbutton text,
 spinbutton entry {
-    padding: 3px;
+    padding: 0.5em;
     border-width: 0;
 }
 spinbutton:not(.vertical) text,
 spinbutton:not(.vertical) entry {
-    min-width: 2.5em;
+    min-width: 1.5em;
 }
 spinbutton.vertical text,
 spinbutton.vertical entry {
-    min-height: 2.5em;
+    min-height: 1.5em;
 }
 spinbutton button {
     border-radius: 0;
