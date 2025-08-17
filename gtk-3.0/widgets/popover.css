@@ -4,6 +4,7 @@ toolbar.osd {
     color: @text_color;
     border-radius: 3px;
     border-width: 1px;
+    box-shadow: 0 0 0.3em @shadow_color;
 }
 
 popover modelbutton {
