@@ -16,6 +16,7 @@ button.suggested-action {
 .toolbar > button,
 button.flat {
     background: none;
+    color: inherit;
     border-color: transparent;
 }
 
