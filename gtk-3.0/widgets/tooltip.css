@@ -2,4 +2,6 @@ tooltip.background {
     background-color: @tooltip_bg_color;
     color: @tooltip_fg_color;
     padding: 0;
+    border: 1px solid @border_color;
+    border-radius: 3px;
 }
