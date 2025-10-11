@@ -1,0 +1,29 @@
+popover.background {
+    background-color: transparent;
+    border: 0;
+}
+
+popover.background > arrow,
+popover.background > contents {
+    background: @base_color;
+    color: @text_color;
+    border-width: 1px;
+}
+
+popover.background > contents {
+    padding: 0.5em;
+    border-radius: 3px;
+}
+
+frame {
+    border-width: 1px;
+    padding: 0;
+}
+
+statusbar {
+    padding: 0.5em;
+}
+
+button separator {
+    margin: 0 0.5em;
+}
