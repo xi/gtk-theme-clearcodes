@@ -1,3 +1,11 @@
+*:hover, *:focus {
+    -gtk-icon-filter: brightness(1.2);
+}
+
+*:disabled:disabled {
+    -gtk-icon-filter: opacity(0.5);
+}
+
 popover.background {
     background-color: transparent;
     border: 0;

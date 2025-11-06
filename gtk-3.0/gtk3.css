@@ -1,1 +1,17 @@
-/* nothing to do */
+* {
+    -GtkTreeView-expander-size: 11;
+    -GtkScrolledWindow-scrollbar-spacing: 0;
+}
+
+*:hover, *:focus {
+    -gtk-icon-effect: highlight;
+}
+
+*:disabled:disabled {
+    -gtk-icon-effect: dim;
+}
+
+scrollbar {
+    -GtkScrollbar-has-backward-stepper: false;
+    -GtkScrollbar-has-forward-stepper: false;
+}

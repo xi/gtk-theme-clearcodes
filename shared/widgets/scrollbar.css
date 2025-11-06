@@ -1,14 +1,5 @@
-* {
-    -GtkScrolledWindow-scrollbar-spacing: 0;
-}
-
 scrolledwindow.frame {
     border-width: 1px;
-}
-
-scrollbar {
-    -GtkScrollbar-has-backward-stepper: false;
-    -GtkScrollbar-has-forward-stepper: false;
 }
 
 scrollbar slider {

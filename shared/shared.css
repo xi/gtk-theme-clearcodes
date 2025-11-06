@@ -1,12 +1,6 @@
 * {
     border-color: @border_color;
     border-style: solid;
-
-    -GtkTreeView-expander-size: 11;
-}
-
-*:hover, *:focus {
-    -gtk-icon-effect: highlight;
 }
 
 selection,
@@ -18,7 +12,6 @@ selection,
 /* !important seems to be broken, so I use this hack to push specificity */
 *:disabled:disabled {
     color: mix(@fg_color, @bg_color, 0.4);
-    -gtk-icon-effect: dim;
 }
 .background {
     background: @bg_color;
