@@ -1,22 +1,2 @@
-/* default color scheme */
-@define-color bg_color_secondary #e3e3e3;
-@define-color bg_color #f6f6f6;
-@define-color fg_color #222;
-@define-color base_color #fff;
-@define-color border_color #aaa;
-@define-color shadow_color rgba(0,0,0,0.3);
-
-@define-color selected_bg_color #26c;
-@define-color selected_fg_color #fff;
-
-@define-color text_color @fg_color;
-@define-color focus_color @selected_bg_color;
-@define-color tooltip_bg_color @base_color;
-@define-color tooltip_fg_color @text_color;
-@define-color button_bg_color @base_color;
-@define-color button_fg_color @text_color;
-
-/* optionally import color overwrites */
-/* @import url("colors/dark-anarchy.css"); */
-
-@import url("shared.css");
+@import url("../shared/gtk.css");
+@import url("gtk3.css");
