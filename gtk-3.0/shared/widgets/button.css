@@ -182,3 +182,7 @@ button separator {
     min-width: 1px;
     background-color: @border_color;
 }
+
+.image-text-button image {
+    margin-right: 0.5em;
+}
