@@ -4,10 +4,12 @@ arrow {
     min-width: 14px;
 }
 
+arrow.up,
 arrow.top {
     -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
 }
 
+arrow.down,
 arrow.bottom,
 combobox arrow,
 expander:checked,
