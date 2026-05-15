@@ -32,6 +32,13 @@ statusbar {
     padding: 0.5em;
 }
 
+searchbar {
+    border-bottom-width: 0;
+}
+searchbar > revealer > box {
+    padding: 0.5em;
+}
+
 button separator {
     margin: 0 0.5em;
 }
