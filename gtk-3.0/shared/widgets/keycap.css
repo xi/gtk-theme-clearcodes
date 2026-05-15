@@ -1,0 +1,6 @@
+.keycap {
+    background: @base_color;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 0.2em;
+}
