@@ -63,6 +63,7 @@ scale:disabled:disabled slider {
 
 button.circular {
     border-radius: 1000px;
+    min-width: 1.2em;
 }
 
 button.link {
